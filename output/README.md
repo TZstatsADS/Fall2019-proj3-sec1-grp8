@@ -1,4 +1,4 @@
-# Project: Can you unscramble a blurry image? 
+# Project: Facial Emotion Recognition
 
 ### Output folder
 
