@@ -6,7 +6,7 @@
 In this project, we will carry out **model evaluation and selection** for predictive analytics on image data. As data scientists, we often need to **evaluate** different modeling/analysis strategies and decide what is the best. Such decisions need to be supported by sound evidence in the form of *model assessment, validation and comparison*. In addition, we also need to **communicate our decision and supporting evidence** clearly and convincingly in an accessible fashion.
 
 #### Challenge
-For this project, you will receive [a set of 2500+ facial images with 22 different emotions](https://drive.google.com/open?id=0B0_uWEzqIWoENDB5RmZZWG5wTFU)[require logged into Columbia LionMail in your browser]. Here is an alternative [data link](https://drive.google.com/open?id=0B9sEbphmsGtERlNHMWR6WmxyRDg). These two links lead to **identical** data. 
+For this project, you will receive [a set of 2,500 facial images with 22 different emotions](https://drive.google.com/open?id=0B0_uWEzqIWoENDB5RmZZWG5wTFU)[require logged into Columbia LionMail in your browser]. Here is an alternative [data link](https://drive.google.com/open?id=0B9sEbphmsGtERlNHMWR6WmxyRDg). These two links lead to **identical** data. 
 
 Your client is interested in creating an mobile AI program that **accurately recognizes the emotion from face images**. 
 
@@ -66,7 +66,7 @@ The presentation can be technical but need to be accessible to your peer student
 
 Your client will evalaute your report on a single personal computer that has `R` installed and 16GB memory.  
  
-+ Your feature processing needs to be reasonably efficient as you will have only 30 minutes to process 1000 new images. 
++ Your feature processing needs to be reasonably efficient as you will have only 30 minutes to process 2,500 new images. 
 + Your `main.rmd` should 
 	+ have a folder path as an input that point to the folder of training images. The folder will have the same structure as the training data released to you;
 	+ and output a report on the performance of both the *baseline* and the *improved* models;
