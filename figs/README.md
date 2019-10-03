@@ -1,4 +1,4 @@
-# Project: Facial Emotion Recognition
+# Project: Can you recognize the emotion from a face image?
 
 
 ### Figs folder
