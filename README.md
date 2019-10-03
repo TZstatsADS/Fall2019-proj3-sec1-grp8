@@ -1,5 +1,5 @@
 # Project: Can you recognize the emotion from a face image? 
-<img src="figs/CE.jpg" alt="Compound Emotions" width="200"/>
+<img src="figs/CE.jpg" alt="Compound Emotions" width="500"/>
 
 ### [Full Project Description](doc/project3_desc.md)
 
