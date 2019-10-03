@@ -1,5 +1,5 @@
 # Project: Can you recognize the emotion from a face image? 
-![image](figs/CE.jpg)
+![image](figs/CE.jpg | width=100)
 
 ### [Full Project Description](doc/project3_desc.md)
 
