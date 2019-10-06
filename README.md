@@ -1,5 +1,6 @@
 # Project: Can you recognize the emotion from a face image? 
-![image](figs/CE.jpg)
+<img src="figs/CE.jpg" alt="Compound Emotions" width="500"/>
+(Image source: https://www.pnas.org/content/111/15/E1454)
 
 ### [Full Project Description](doc/project3_desc.md)
 
