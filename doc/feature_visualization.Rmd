@@ -11,16 +11,15 @@ output:
 
 
 ```{r}
-load("../output/information_table.csv")
+info <- read.csv("../data/train_set/label.csv")
 load("../output/fiducial_pt_list.Rdata")
 library(readxl)
-emotion_table <- read_xls("../data/AU_annotation_all_subjects.xls")
 # A function to plot histogram of distribution of pairwise distance for each emotion
 # input: emotion index, first point, second point, vertical or horizontal distance
 # output: histogram of distance distribution
 dist_histogram_by_emotion <- function(emotion_idx, pt1, pt2, vertical = T){
     indices <- info[info$emotion_idx == emotion_idx, 'Index']
-    emotion <- as.character(emotion_table[emotion_table$idx == emotion_idx, 'emotion_cat'])
+    emotion <- as.character(info[info$emotion_idx == emotion_idx, 'emotion_cat'])[1]
     ver.dist <- function(idx){
         if(vertical){
         ver.loc <- fiducial_pt_list[[idx]][,2]
@@ -43,7 +42,7 @@ dist_histogram_by_emotion <- function(emotion_idx, pt1, pt2, vertical = T){
 
 # A function to generalize "dist_histogram_by_emotion" to all emotions 
 dist_histogram <- function(pt1, pt2, vertical = T){
-  lapply(emotion_table$idx, dist_histogram_by_emotion, pt1, pt2, vertical)
+  lapply(1:22, dist_histogram_by_emotion, pt1, pt2, vertical)
 }
 
 #examples
@@ -58,8 +57,9 @@ library(EBImage)
 # output: all images associated with the identity with fiducial points marked
 display_fid_pt <- function(identity){
     indices <- info[info$identity == identity, 'Index']
-    emotions <-  info[info$identity == identity, 'emotion_cat']
-    Image_list_sub <- lapply(info$image.path[indices], EBImage::readImage)
+    emotions <- as.character(info[info$identity == identity, 'emotion_cat'])
+    image.path_sub <- paste0(train_image_dir, sprintf("%04d", indices), ".jpg")
+    Image_list_sub <- lapply(image.path_sub, EBImage::readImage)
     fiducial_pt_list_sub <- fiducial_pt_list[indices]
 
     display_single <- function(j){
