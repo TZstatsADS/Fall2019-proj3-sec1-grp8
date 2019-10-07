@@ -8,8 +8,6 @@ output:
   word_document: default
 ---
 
-
-
 ```{r}
 load("../output/information_table.csv")
 load("../output/fiducial_pt_list.Rdata")

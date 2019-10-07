@@ -1,4 +1,4 @@
-# Project: Can you recognize the emotion from a face image? 
+# Project: Can you recognize the emotion from an image of a face? 
 <img src="figs/CE.jpg" alt="Compound Emotions" width="500"/>
 (Image source: https://www.pnas.org/content/111/15/E1454)
 
