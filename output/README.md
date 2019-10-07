@@ -1,4 +1,4 @@
-# Project: Can you recognize the emotion from a face image?
+# Project: Can you recognize the emotion from an image of a face?
 
 ### Output folder
 

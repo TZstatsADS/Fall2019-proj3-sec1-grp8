@@ -8,8 +8,6 @@ output:
   word_document: default
 ---
 
-
-
 ```{r}
 info <- read.csv("../data/train_set/label.csv")
 load("../output/fiducial_pt_list.Rdata")

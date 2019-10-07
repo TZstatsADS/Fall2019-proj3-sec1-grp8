@@ -1,7 +1,7 @@
 ## STAT GU4243/GR5243 Fall 2019 Applied Data Science
-### Project 3 Predictive analytics-model evaluation and selection
+### Project 3 Predictive analytics: model evaluation and selection
 
-### - for a facial emotion recognition task
+### -- for a facial emotion recognition task
 
 In this project, we will carry out **model evaluation and selection** for predictive analytics on image data. As data scientists, we often need to **evaluate** different modeling/analysis strategies and decide what is the best. Such decisions need to be supported by sound evidence in the form of *model assessment, validation and comparison*. In addition, we also need to **communicate our decision and supporting evidence** clearly and convincingly in an accessible fashion.
 
@@ -50,9 +50,6 @@ For this project, you are to carry out a business feasibility evaluation project
 Each week, we will give a tutorial in class and having live discussion and brainstorm sessions. The instruction team will join team discussions during class and online. 
 
 
-
-
-
 ##### Final presentation
 For presentation, the team should present their **proposal** for an improvement and support this proposal with evidence on 
 
@@ -86,7 +83,7 @@ GitHub_proj/
 ├──output/
 ├──README.md
 ```
-- In `data`, team members should individually save raw image data and a file that contains groundtruth labels for the images on their local computer. Currently there is a data folder with example hand-written zipcode images for the starter codes. You should **remove** it from your final repo. You shall not upload the images as these are copy-right protected materials. 
+- In `data`, team members should individually save raw image data and a file that contains groundtruth labels for the images on their local computer. Currently there is a data folder with example hand-written zipcode images for the starter codes. You should **remove** it from your final repo. You shall **NOT** upload the images as these are copy-right protected materials. 
 - The `doc` folder should have documentations for this project, presentation files and other supporting materials. You should have a final `main.RMD` following the template given in the starter codes. Your `main.RMD` can assume that there is a data folder of raw images outside the root with subfolders corresponding to the training set and the test set. 
 - The `figs` folder contains figure files produced during the project and running of the codes. 
 - (For R users) The `lib` folder contain R codes for the AI program. It should have the following files: `feature.R`, `train.R`, and `test.R`. The codes in the `lib` folder are not intended to be run directly but to be called from `main.RMD`. 
