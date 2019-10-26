@@ -6,6 +6,9 @@ from tensorflow import keras
 import matplotlib.pyplot as plt
 import pandas as pd
 from tensorflow.keras import optimizers
+from sklearn.datasets import load_breast_cancer
+from sklearn.model_selection import train_test_split
+from sklearn.decomposition import NMF
 
 nmf_features  = np.load('nmf_features_type_emot.npy',allow_pickle=True)
 
@@ -34,7 +37,7 @@ model.compile(optimizer = 'adam',
              loss = 'sparse_categorical_crossentropy',
              metrics = ['accuracy'])
 
-history = model.fit(x_train_nmf, y_train_cat, validation_data = (x_test_nmf,y_test_cat), batch_size = 24,epochs = 50)
+history = model.fit(x_train_nmf, y_train_cat, validation_data = (x_test_nmf,y_test_cat), batch_size = 12,epochs = 50)
 
 
 acc = history.history['acc']
@@ -44,6 +47,8 @@ val_loss = history.history['val_loss']
 
 # Get the number of epochs
 epochs = range(len(acc))
+
+model.save('binary_classification_model.h5')
 
 plt.title('Training and validation accuracy')
 plt.plot(epochs, acc, color='blue', label='Train')
