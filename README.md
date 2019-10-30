@@ -14,7 +14,7 @@ Term: Fall 2019
   + He, Chongyu ch3379@columbia.edu
   + Zhang, Jerry jz2966@columbia.edu
 
-[Presentation](https://github.com/TZstatsADS/.pptx)
+[Presentation](https://github.com/TZstatsADS/Fall2019-proj3-sec1--proj3-sec1-grp8/blob/master/doc/Predictive%20Modelling.pptx)
 
 ### **Project summary**:  
 + In this project, we created an classification program that can recognize emotion from an image of a face. We 1) employed NMF and PCA as dimensionality reduction technique to improve classification accuracy and reduce model runtime, 2) implemented GBM as basline model, 3) implemented random forest, SVM and neural network, specifically, there are two parts in the neural network model, firstly we train a binary classification model, then for each category we train different models to classify corresponding emotions and 3) evaluated the performance gain of your proposed improvement against the baseline. We utilized tensorflow in python for improved model.
