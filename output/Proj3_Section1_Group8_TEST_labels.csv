@@ -1,0 +1,2501 @@
+ ,Index,identity,emotion_idx,emotion_cat,type
+0,0,,2,Happy,simple
+1,1,,11,Angrily disgusted,compound
+2,2,,11,Angrily disgusted,compound
+3,3,,1,Neutral,simple
+4,4,,2,Happy,simple
+5,5,,2,Happy,simple
+6,6,,11,Angrily disgusted,compound
+7,7,,2,Happy,simple
+8,8,,5,Surprised,simple
+9,9,,2,Happy,simple
+10,10,,2,Happy,simple
+11,11,,1,Neutral,simple
+12,12,,2,Happy,simple
+13,13,,2,Happy,simple
+14,14,,1,Neutral,simple
+15,15,,2,Happy,simple
+16,16,,11,Angrily disgusted,compound
+17,17,,2,Happy,simple
+18,18,,5,Surprised,simple
+19,19,,2,Happy,simple
+20,20,,1,Neutral,simple
+21,21,,1,Neutral,simple
+22,22,,11,Angrily disgusted,compound
+23,23,,2,Happy,simple
+24,24,,11,Angrily disgusted,compound
+25,25,,2,Happy,simple
+26,26,,11,Angrily disgusted,compound
+27,27,,2,Happy,simple
+28,28,,2,Happy,simple
+29,29,,11,Angrily disgusted,compound
+30,30,,2,Happy,simple
+31,31,,2,Happy,simple
+32,32,,2,Happy,simple
+33,33,,2,Happy,simple
+34,34,,2,Happy,simple
+35,35,,5,Surprised,simple
+36,36,,2,Happy,simple
+37,37,,2,Happy,simple
+38,38,,1,Neutral,simple
+39,39,,11,Angrily disgusted,compound
+40,40,,11,Angrily disgusted,compound
+41,41,,2,Happy,simple
+42,42,,1,Neutral,simple
+43,43,,2,Happy,simple
+44,44,,2,Happy,simple
+45,45,,2,Happy,simple
+46,46,,5,Surprised,simple
+47,47,,2,Happy,simple
+48,48,,11,Angrily disgusted,compound
+49,49,,11,Angrily disgusted,compound
+50,50,,11,Angrily disgusted,compound
+51,51,,2,Happy,simple
+52,52,,11,Angrily disgusted,compound
+53,53,,1,Neutral,simple
+54,54,,1,Neutral,simple
+55,55,,2,Happy,simple
+56,56,,2,Happy,simple
+57,57,,11,Angrily disgusted,compound
+58,58,,2,Happy,simple
+59,59,,11,Angrily disgusted,compound
+60,60,,11,Angrily disgusted,compound
+61,61,,1,Neutral,simple
+62,62,,11,Angrily disgusted,compound
+63,63,,5,Surprised,simple
+64,64,,2,Happy,simple
+65,65,,2,Happy,simple
+66,66,,1,Neutral,simple
+67,67,,2,Happy,simple
+68,68,,11,Angrily disgusted,compound
+69,69,,1,Neutral,simple
+70,70,,2,Happy,simple
+71,71,,2,Happy,simple
+72,72,,2,Happy,simple
+73,73,,11,Angrily disgusted,compound
+74,74,,1,Neutral,simple
+75,75,,11,Angrily disgusted,compound
+76,76,,11,Angrily disgusted,compound
+77,77,,11,Angrily disgusted,compound
+78,78,,2,Happy,simple
+79,79,,2,Happy,simple
+80,80,,2,Happy,simple
+81,81,,11,Angrily disgusted,compound
+82,82,,2,Happy,simple
+83,83,,1,Neutral,simple
+84,84,,5,Surprised,simple
+85,85,,5,Surprised,simple
+86,86,,11,Angrily disgusted,compound
+87,87,,2,Happy,simple
+88,88,,2,Happy,simple
+89,89,,1,Neutral,simple
+90,90,,11,Angrily disgusted,compound
+91,91,,2,Happy,simple
+92,92,,2,Happy,simple
+93,93,,2,Happy,simple
+94,94,,1,Neutral,simple
+95,95,,1,Neutral,simple
+96,96,,2,Happy,simple
+97,97,,2,Happy,simple
+98,98,,2,Happy,simple
+99,99,,11,Angrily disgusted,compound
+100,100,,2,Happy,simple
+101,101,,1,Neutral,simple
+102,102,,1,Neutral,simple
+103,103,,2,Happy,simple
+104,104,,1,Neutral,simple
+105,105,,2,Happy,simple
+106,106,,11,Angrily disgusted,compound
+107,107,,11,Angrily disgusted,compound
+108,108,,2,Happy,simple
+109,109,,11,Angrily disgusted,compound
+110,110,,2,Happy,simple
+111,111,,2,Happy,simple
+112,112,,2,Happy,simple
+113,113,,2,Happy,simple
+114,114,,2,Happy,simple
+115,115,,11,Angrily disgusted,compound
+116,116,,11,Angrily disgusted,compound
+117,117,,2,Happy,simple
+118,118,,2,Happy,simple
+119,119,,1,Neutral,simple
+120,120,,1,Neutral,simple
+121,121,,2,Happy,simple
+122,122,,11,Angrily disgusted,compound
+123,123,,11,Angrily disgusted,compound
+124,124,,11,Angrily disgusted,compound
+125,125,,2,Happy,simple
+126,126,,2,Happy,simple
+127,127,,11,Angrily disgusted,compound
+128,128,,11,Angrily disgusted,compound
+129,129,,11,Angrily disgusted,compound
+130,130,,2,Happy,simple
+131,131,,1,Neutral,simple
+132,132,,2,Happy,simple
+133,133,,2,Happy,simple
+134,134,,1,Neutral,simple
+135,135,,2,Happy,simple
+136,136,,11,Angrily disgusted,compound
+137,137,,2,Happy,simple
+138,138,,2,Happy,simple
+139,139,,11,Angrily disgusted,compound
+140,140,,2,Happy,simple
+141,141,,11,Angrily disgusted,compound
+142,142,,2,Happy,simple
+143,143,,11,Angrily disgusted,compound
+144,144,,11,Angrily disgusted,compound
+145,145,,1,Neutral,simple
+146,146,,2,Happy,simple
+147,147,,2,Happy,simple
+148,148,,1,Neutral,simple
+149,149,,2,Happy,simple
+150,150,,2,Happy,simple
+151,151,,2,Happy,simple
+152,152,,11,Angrily disgusted,compound
+153,153,,2,Happy,simple
+154,154,,2,Happy,simple
+155,155,,2,Happy,simple
+156,156,,5,Surprised,simple
+157,157,,2,Happy,simple
+158,158,,11,Angrily disgusted,compound
+159,159,,2,Happy,simple
+160,160,,5,Surprised,simple
+161,161,,5,Surprised,simple
+162,162,,2,Happy,simple
+163,163,,5,Surprised,simple
+164,164,,1,Neutral,simple
+165,165,,11,Angrily disgusted,compound
+166,166,,2,Happy,simple
+167,167,,2,Happy,simple
+168,168,,2,Happy,simple
+169,169,,2,Happy,simple
+170,170,,11,Angrily disgusted,compound
+171,171,,2,Happy,simple
+172,172,,11,Angrily disgusted,compound
+173,173,,2,Happy,simple
+174,174,,2,Happy,simple
+175,175,,2,Happy,simple
+176,176,,2,Happy,simple
+177,177,,11,Angrily disgusted,compound
+178,178,,2,Happy,simple
+179,179,,11,Angrily disgusted,compound
+180,180,,2,Happy,simple
+181,181,,5,Surprised,simple
+182,182,,2,Happy,simple
+183,183,,5,Surprised,simple
+184,184,,1,Neutral,simple
+185,185,,2,Happy,simple
+186,186,,2,Happy,simple
+187,187,,11,Angrily disgusted,compound
+188,188,,11,Angrily disgusted,compound
+189,189,,11,Angrily disgusted,compound
+190,190,,1,Neutral,simple
+191,191,,11,Angrily disgusted,compound
+192,192,,2,Happy,simple
+193,193,,2,Happy,simple
+194,194,,2,Happy,simple
+195,195,,2,Happy,simple
+196,196,,1,Neutral,simple
+197,197,,2,Happy,simple
+198,198,,11,Angrily disgusted,compound
+199,199,,2,Happy,simple
+200,200,,2,Happy,simple
+201,201,,2,Happy,simple
+202,202,,1,Neutral,simple
+203,203,,1,Neutral,simple
+204,204,,11,Angrily disgusted,compound
+205,205,,1,Neutral,simple
+206,206,,2,Happy,simple
+207,207,,2,Happy,simple
+208,208,,11,Angrily disgusted,compound
+209,209,,2,Happy,simple
+210,210,,1,Neutral,simple
+211,211,,2,Happy,simple
+212,212,,11,Angrily disgusted,compound
+213,213,,5,Surprised,simple
+214,214,,11,Angrily disgusted,compound
+215,215,,2,Happy,simple
+216,216,,2,Happy,simple
+217,217,,2,Happy,simple
+218,218,,2,Happy,simple
+219,219,,1,Neutral,simple
+220,220,,2,Happy,simple
+221,221,,2,Happy,simple
+222,222,,11,Angrily disgusted,compound
+223,223,,11,Angrily disgusted,compound
+224,224,,2,Happy,simple
+225,225,,11,Angrily disgusted,compound
+226,226,,2,Happy,simple
+227,227,,1,Neutral,simple
+228,228,,1,Neutral,simple
+229,229,,2,Happy,simple
+230,230,,2,Happy,simple
+231,231,,11,Angrily disgusted,compound
+232,232,,5,Surprised,simple
+233,233,,11,Angrily disgusted,compound
+234,234,,2,Happy,simple
+235,235,,5,Surprised,simple
+236,236,,5,Surprised,simple
+237,237,,11,Angrily disgusted,compound
+238,238,,1,Neutral,simple
+239,239,,2,Happy,simple
+240,240,,2,Happy,simple
+241,241,,1,Neutral,simple
+242,242,,2,Happy,simple
+243,243,,2,Happy,simple
+244,244,,2,Happy,simple
+245,245,,11,Angrily disgusted,compound
+246,246,,1,Neutral,simple
+247,247,,2,Happy,simple
+248,248,,2,Happy,simple
+249,249,,2,Happy,simple
+250,250,,2,Happy,simple
+251,251,,2,Happy,simple
+252,252,,1,Neutral,simple
+253,253,,11,Angrily disgusted,compound
+254,254,,2,Happy,simple
+255,255,,5,Surprised,simple
+256,256,,2,Happy,simple
+257,257,,11,Angrily disgusted,compound
+258,258,,11,Angrily disgusted,compound
+259,259,,11,Angrily disgusted,compound
+260,260,,2,Happy,simple
+261,261,,11,Angrily disgusted,compound
+262,262,,11,Angrily disgusted,compound
+263,263,,2,Happy,simple
+264,264,,2,Happy,simple
+265,265,,2,Happy,simple
+266,266,,11,Angrily disgusted,compound
+267,267,,2,Happy,simple
+268,268,,1,Neutral,simple
+269,269,,11,Angrily disgusted,compound
+270,270,,11,Angrily disgusted,compound
+271,271,,2,Happy,simple
+272,272,,2,Happy,simple
+273,273,,1,Neutral,simple
+274,274,,1,Neutral,simple
+275,275,,2,Happy,simple
+276,276,,1,Neutral,simple
+277,277,,11,Angrily disgusted,compound
+278,278,,2,Happy,simple
+279,279,,11,Angrily disgusted,compound
+280,280,,5,Surprised,simple
+281,281,,1,Neutral,simple
+282,282,,11,Angrily disgusted,compound
+283,283,,11,Angrily disgusted,compound
+284,284,,1,Neutral,simple
+285,285,,1,Neutral,simple
+286,286,,2,Happy,simple
+287,287,,11,Angrily disgusted,compound
+288,288,,2,Happy,simple
+289,289,,2,Happy,simple
+290,290,,2,Happy,simple
+291,291,,5,Surprised,simple
+292,292,,2,Happy,simple
+293,293,,11,Angrily disgusted,compound
+294,294,,11,Angrily disgusted,compound
+295,295,,2,Happy,simple
+296,296,,1,Neutral,simple
+297,297,,5,Surprised,simple
+298,298,,1,Neutral,simple
+299,299,,2,Happy,simple
+300,300,,2,Happy,simple
+301,301,,11,Angrily disgusted,compound
+302,302,,1,Neutral,simple
+303,303,,1,Neutral,simple
+304,304,,2,Happy,simple
+305,305,,2,Happy,simple
+306,306,,2,Happy,simple
+307,307,,2,Happy,simple
+308,308,,2,Happy,simple
+309,309,,2,Happy,simple
+310,310,,11,Angrily disgusted,compound
+311,311,,2,Happy,simple
+312,312,,2,Happy,simple
+313,313,,2,Happy,simple
+314,314,,11,Angrily disgusted,compound
+315,315,,5,Surprised,simple
+316,316,,2,Happy,simple
+317,317,,2,Happy,simple
+318,318,,2,Happy,simple
+319,319,,2,Happy,simple
+320,320,,2,Happy,simple
+321,321,,11,Angrily disgusted,compound
+322,322,,1,Neutral,simple
+323,323,,1,Neutral,simple
+324,324,,2,Happy,simple
+325,325,,2,Happy,simple
+326,326,,2,Happy,simple
+327,327,,1,Neutral,simple
+328,328,,11,Angrily disgusted,compound
+329,329,,11,Angrily disgusted,compound
+330,330,,2,Happy,simple
+331,331,,2,Happy,simple
+332,332,,2,Happy,simple
+333,333,,11,Angrily disgusted,compound
+334,334,,2,Happy,simple
+335,335,,2,Happy,simple
+336,336,,2,Happy,simple
+337,337,,2,Happy,simple
+338,338,,2,Happy,simple
+339,339,,2,Happy,simple
+340,340,,2,Happy,simple
+341,341,,2,Happy,simple
+342,342,,11,Angrily disgusted,compound
+343,343,,11,Angrily disgusted,compound
+344,344,,11,Angrily disgusted,compound
+345,345,,1,Neutral,simple
+346,346,,5,Surprised,simple
+347,347,,2,Happy,simple
+348,348,,1,Neutral,simple
+349,349,,1,Neutral,simple
+350,350,,11,Angrily disgusted,compound
+351,351,,1,Neutral,simple
+352,352,,11,Angrily disgusted,compound
+353,353,,2,Happy,simple
+354,354,,11,Angrily disgusted,compound
+355,355,,2,Happy,simple
+356,356,,11,Angrily disgusted,compound
+357,357,,11,Angrily disgusted,compound
+358,358,,2,Happy,simple
+359,359,,11,Angrily disgusted,compound
+360,360,,1,Neutral,simple
+361,361,,5,Surprised,simple
+362,362,,11,Angrily disgusted,compound
+363,363,,11,Angrily disgusted,compound
+364,364,,11,Angrily disgusted,compound
+365,365,,11,Angrily disgusted,compound
+366,366,,11,Angrily disgusted,compound
+367,367,,2,Happy,simple
+368,368,,5,Surprised,simple
+369,369,,11,Angrily disgusted,compound
+370,370,,1,Neutral,simple
+371,371,,2,Happy,simple
+372,372,,2,Happy,simple
+373,373,,2,Happy,simple
+374,374,,2,Happy,simple
+375,375,,2,Happy,simple
+376,376,,2,Happy,simple
+377,377,,2,Happy,simple
+378,378,,2,Happy,simple
+379,379,,5,Surprised,simple
+380,380,,2,Happy,simple
+381,381,,1,Neutral,simple
+382,382,,1,Neutral,simple
+383,383,,2,Happy,simple
+384,384,,2,Happy,simple
+385,385,,5,Surprised,simple
+386,386,,2,Happy,simple
+387,387,,2,Happy,simple
+388,388,,1,Neutral,simple
+389,389,,2,Happy,simple
+390,390,,11,Angrily disgusted,compound
+391,391,,2,Happy,simple
+392,392,,2,Happy,simple
+393,393,,2,Happy,simple
+394,394,,2,Happy,simple
+395,395,,11,Angrily disgusted,compound
+396,396,,2,Happy,simple
+397,397,,2,Happy,simple
+398,398,,2,Happy,simple
+399,399,,2,Happy,simple
+400,400,,1,Neutral,simple
+401,401,,11,Angrily disgusted,compound
+402,402,,2,Happy,simple
+403,403,,2,Happy,simple
+404,404,,2,Happy,simple
+405,405,,2,Happy,simple
+406,406,,2,Happy,simple
+407,407,,2,Happy,simple
+408,408,,11,Angrily disgusted,compound
+409,409,,2,Happy,simple
+410,410,,1,Neutral,simple
+411,411,,2,Happy,simple
+412,412,,1,Neutral,simple
+413,413,,2,Happy,simple
+414,414,,2,Happy,simple
+415,415,,11,Angrily disgusted,compound
+416,416,,2,Happy,simple
+417,417,,1,Neutral,simple
+418,418,,11,Angrily disgusted,compound
+419,419,,2,Happy,simple
+420,420,,1,Neutral,simple
+421,421,,2,Happy,simple
+422,422,,11,Angrily disgusted,compound
+423,423,,11,Angrily disgusted,compound
+424,424,,2,Happy,simple
+425,425,,2,Happy,simple
+426,426,,11,Angrily disgusted,compound
+427,427,,5,Surprised,simple
+428,428,,2,Happy,simple
+429,429,,11,Angrily disgusted,compound
+430,430,,11,Angrily disgusted,compound
+431,431,,11,Angrily disgusted,compound
+432,432,,2,Happy,simple
+433,433,,2,Happy,simple
+434,434,,2,Happy,simple
+435,435,,2,Happy,simple
+436,436,,11,Angrily disgusted,compound
+437,437,,1,Neutral,simple
+438,438,,11,Angrily disgusted,compound
+439,439,,11,Angrily disgusted,compound
+440,440,,1,Neutral,simple
+441,441,,2,Happy,simple
+442,442,,1,Neutral,simple
+443,443,,11,Angrily disgusted,compound
+444,444,,1,Neutral,simple
+445,445,,1,Neutral,simple
+446,446,,2,Happy,simple
+447,447,,2,Happy,simple
+448,448,,2,Happy,simple
+449,449,,2,Happy,simple
+450,450,,11,Angrily disgusted,compound
+451,451,,11,Angrily disgusted,compound
+452,452,,2,Happy,simple
+453,453,,1,Neutral,simple
+454,454,,11,Angrily disgusted,compound
+455,455,,11,Angrily disgusted,compound
+456,456,,11,Angrily disgusted,compound
+457,457,,11,Angrily disgusted,compound
+458,458,,11,Angrily disgusted,compound
+459,459,,5,Surprised,simple
+460,460,,5,Surprised,simple
+461,461,,11,Angrily disgusted,compound
+462,462,,2,Happy,simple
+463,463,,11,Angrily disgusted,compound
+464,464,,1,Neutral,simple
+465,465,,11,Angrily disgusted,compound
+466,466,,2,Happy,simple
+467,467,,1,Neutral,simple
+468,468,,2,Happy,simple
+469,469,,11,Angrily disgusted,compound
+470,470,,5,Surprised,simple
+471,471,,11,Angrily disgusted,compound
+472,472,,1,Neutral,simple
+473,473,,2,Happy,simple
+474,474,,11,Angrily disgusted,compound
+475,475,,2,Happy,simple
+476,476,,11,Angrily disgusted,compound
+477,477,,1,Neutral,simple
+478,478,,5,Surprised,simple
+479,479,,2,Happy,simple
+480,480,,21,Fearfully angry,compound
+481,481,,11,Angrily disgusted,compound
+482,482,,11,Angrily disgusted,compound
+483,483,,11,Angrily disgusted,compound
+484,484,,2,Happy,simple
+485,485,,11,Angrily disgusted,compound
+486,486,,2,Happy,simple
+487,487,,1,Neutral,simple
+488,488,,1,Neutral,simple
+489,489,,2,Happy,simple
+490,490,,11,Angrily disgusted,compound
+491,491,,11,Angrily disgusted,compound
+492,492,,2,Happy,simple
+493,493,,1,Neutral,simple
+494,494,,2,Happy,simple
+495,495,,2,Happy,simple
+496,496,,2,Happy,simple
+497,497,,2,Happy,simple
+498,498,,11,Angrily disgusted,compound
+499,499,,5,Surprised,simple
+500,500,,11,Angrily disgusted,compound
+501,501,,2,Happy,simple
+502,502,,2,Happy,simple
+503,503,,2,Happy,simple
+504,504,,11,Angrily disgusted,compound
+505,505,,11,Angrily disgusted,compound
+506,506,,1,Neutral,simple
+507,507,,1,Neutral,simple
+508,508,,2,Happy,simple
+509,509,,2,Happy,simple
+510,510,,2,Happy,simple
+511,511,,2,Happy,simple
+512,512,,2,Happy,simple
+513,513,,11,Angrily disgusted,compound
+514,514,,11,Angrily disgusted,compound
+515,515,,11,Angrily disgusted,compound
+516,516,,2,Happy,simple
+517,517,,2,Happy,simple
+518,518,,2,Happy,simple
+519,519,,5,Surprised,simple
+520,520,,11,Angrily disgusted,compound
+521,521,,11,Angrily disgusted,compound
+522,522,,5,Surprised,simple
+523,523,,11,Angrily disgusted,compound
+524,524,,1,Neutral,simple
+525,525,,2,Happy,simple
+526,526,,5,Surprised,simple
+527,527,,11,Angrily disgusted,compound
+528,528,,2,Happy,simple
+529,529,,1,Neutral,simple
+530,530,,2,Happy,simple
+531,531,,11,Angrily disgusted,compound
+532,532,,11,Angrily disgusted,compound
+533,533,,2,Happy,simple
+534,534,,2,Happy,simple
+535,535,,1,Neutral,simple
+536,536,,2,Happy,simple
+537,537,,2,Happy,simple
+538,538,,2,Happy,simple
+539,539,,2,Happy,simple
+540,540,,11,Angrily disgusted,compound
+541,541,,1,Neutral,simple
+542,542,,2,Happy,simple
+543,543,,2,Happy,simple
+544,544,,5,Surprised,simple
+545,545,,11,Angrily disgusted,compound
+546,546,,2,Happy,simple
+547,547,,2,Happy,simple
+548,548,,2,Happy,simple
+549,549,,11,Angrily disgusted,compound
+550,550,,1,Neutral,simple
+551,551,,11,Angrily disgusted,compound
+552,552,,2,Happy,simple
+553,553,,2,Happy,simple
+554,554,,2,Happy,simple
+555,555,,1,Neutral,simple
+556,556,,5,Surprised,simple
+557,557,,2,Happy,simple
+558,558,,2,Happy,simple
+559,559,,11,Angrily disgusted,compound
+560,560,,11,Angrily disgusted,compound
+561,561,,2,Happy,simple
+562,562,,2,Happy,simple
+563,563,,11,Angrily disgusted,compound
+564,564,,11,Angrily disgusted,compound
+565,565,,2,Happy,simple
+566,566,,2,Happy,simple
+567,567,,2,Happy,simple
+568,568,,11,Angrily disgusted,compound
+569,569,,2,Happy,simple
+570,570,,2,Happy,simple
+571,571,,5,Surprised,simple
+572,572,,11,Angrily disgusted,compound
+573,573,,2,Happy,simple
+574,574,,2,Happy,simple
+575,575,,2,Happy,simple
+576,576,,11,Angrily disgusted,compound
+577,577,,21,Fearfully angry,compound
+578,578,,11,Angrily disgusted,compound
+579,579,,5,Surprised,simple
+580,580,,11,Angrily disgusted,compound
+581,581,,2,Happy,simple
+582,582,,5,Surprised,simple
+583,583,,11,Angrily disgusted,compound
+584,584,,2,Happy,simple
+585,585,,2,Happy,simple
+586,586,,2,Happy,simple
+587,587,,1,Neutral,simple
+588,588,,11,Angrily disgusted,compound
+589,589,,5,Surprised,simple
+590,590,,2,Happy,simple
+591,591,,2,Happy,simple
+592,592,,1,Neutral,simple
+593,593,,2,Happy,simple
+594,594,,1,Neutral,simple
+595,595,,11,Angrily disgusted,compound
+596,596,,1,Neutral,simple
+597,597,,1,Neutral,simple
+598,598,,1,Neutral,simple
+599,599,,2,Happy,simple
+600,600,,11,Angrily disgusted,compound
+601,601,,11,Angrily disgusted,compound
+602,602,,2,Happy,simple
+603,603,,11,Angrily disgusted,compound
+604,604,,1,Neutral,simple
+605,605,,2,Happy,simple
+606,606,,11,Angrily disgusted,compound
+607,607,,2,Happy,simple
+608,608,,2,Happy,simple
+609,609,,1,Neutral,simple
+610,610,,1,Neutral,simple
+611,611,,11,Angrily disgusted,compound
+612,612,,2,Happy,simple
+613,613,,1,Neutral,simple
+614,614,,11,Angrily disgusted,compound
+615,615,,2,Happy,simple
+616,616,,2,Happy,simple
+617,617,,11,Angrily disgusted,compound
+618,618,,11,Angrily disgusted,compound
+619,619,,11,Angrily disgusted,compound
+620,620,,1,Neutral,simple
+621,621,,2,Happy,simple
+622,622,,11,Angrily disgusted,compound
+623,623,,11,Angrily disgusted,compound
+624,624,,1,Neutral,simple
+625,625,,2,Happy,simple
+626,626,,2,Happy,simple
+627,627,,11,Angrily disgusted,compound
+628,628,,11,Angrily disgusted,compound
+629,629,,1,Neutral,simple
+630,630,,11,Angrily disgusted,compound
+631,631,,2,Happy,simple
+632,632,,3,Sad,simple
+633,633,,3,Sad,simple
+634,634,,11,Angrily disgusted,compound
+635,635,,2,Happy,simple
+636,636,,2,Happy,simple
+637,637,,1,Neutral,simple
+638,638,,11,Angrily disgusted,compound
+639,639,,2,Happy,simple
+640,640,,2,Happy,simple
+641,641,,1,Neutral,simple
+642,642,,11,Angrily disgusted,compound
+643,643,,11,Angrily disgusted,compound
+644,644,,5,Surprised,simple
+645,645,,11,Angrily disgusted,compound
+646,646,,1,Neutral,simple
+647,647,,2,Happy,simple
+648,648,,1,Neutral,simple
+649,649,,11,Angrily disgusted,compound
+650,650,,2,Happy,simple
+651,651,,1,Neutral,simple
+652,652,,11,Angrily disgusted,compound
+653,653,,2,Happy,simple
+654,654,,1,Neutral,simple
+655,655,,11,Angrily disgusted,compound
+656,656,,11,Angrily disgusted,compound
+657,657,,2,Happy,simple
+658,658,,11,Angrily disgusted,compound
+659,659,,2,Happy,simple
+660,660,,2,Happy,simple
+661,661,,5,Surprised,simple
+662,662,,2,Happy,simple
+663,663,,2,Happy,simple
+664,664,,2,Happy,simple
+665,665,,1,Neutral,simple
+666,666,,2,Happy,simple
+667,667,,2,Happy,simple
+668,668,,11,Angrily disgusted,compound
+669,669,,11,Angrily disgusted,compound
+670,670,,1,Neutral,simple
+671,671,,2,Happy,simple
+672,672,,2,Happy,simple
+673,673,,2,Happy,simple
+674,674,,5,Surprised,simple
+675,675,,2,Happy,simple
+676,676,,2,Happy,simple
+677,677,,2,Happy,simple
+678,678,,1,Neutral,simple
+679,679,,1,Neutral,simple
+680,680,,2,Happy,simple
+681,681,,2,Happy,simple
+682,682,,1,Neutral,simple
+683,683,,1,Neutral,simple
+684,684,,1,Neutral,simple
+685,685,,11,Angrily disgusted,compound
+686,686,,2,Happy,simple
+687,687,,1,Neutral,simple
+688,688,,1,Neutral,simple
+689,689,,1,Neutral,simple
+690,690,,2,Happy,simple
+691,691,,11,Angrily disgusted,compound
+692,692,,5,Surprised,simple
+693,693,,1,Neutral,simple
+694,694,,11,Angrily disgusted,compound
+695,695,,2,Happy,simple
+696,696,,1,Neutral,simple
+697,697,,1,Neutral,simple
+698,698,,2,Happy,simple
+699,699,,1,Neutral,simple
+700,700,,1,Neutral,simple
+701,701,,2,Happy,simple
+702,702,,1,Neutral,simple
+703,703,,2,Happy,simple
+704,704,,2,Happy,simple
+705,705,,2,Happy,simple
+706,706,,2,Happy,simple
+707,707,,2,Happy,simple
+708,708,,2,Happy,simple
+709,709,,1,Neutral,simple
+710,710,,2,Happy,simple
+711,711,,11,Angrily disgusted,compound
+712,712,,2,Happy,simple
+713,713,,2,Happy,simple
+714,714,,2,Happy,simple
+715,715,,11,Angrily disgusted,compound
+716,716,,2,Happy,simple
+717,717,,2,Happy,simple
+718,718,,2,Happy,simple
+719,719,,2,Happy,simple
+720,720,,2,Happy,simple
+721,721,,11,Angrily disgusted,compound
+722,722,,11,Angrily disgusted,compound
+723,723,,1,Neutral,simple
+724,724,,11,Angrily disgusted,compound
+725,725,,2,Happy,simple
+726,726,,2,Happy,simple
+727,727,,2,Happy,simple
+728,728,,1,Neutral,simple
+729,729,,1,Neutral,simple
+730,730,,2,Happy,simple
+731,731,,1,Neutral,simple
+732,732,,11,Angrily disgusted,compound
+733,733,,2,Happy,simple
+734,734,,5,Surprised,simple
+735,735,,11,Angrily disgusted,compound
+736,736,,2,Happy,simple
+737,737,,11,Angrily disgusted,compound
+738,738,,2,Happy,simple
+739,739,,11,Angrily disgusted,compound
+740,740,,11,Angrily disgusted,compound
+741,741,,2,Happy,simple
+742,742,,2,Happy,simple
+743,743,,11,Angrily disgusted,compound
+744,744,,2,Happy,simple
+745,745,,2,Happy,simple
+746,746,,2,Happy,simple
+747,747,,2,Happy,simple
+748,748,,11,Angrily disgusted,compound
+749,749,,2,Happy,simple
+750,750,,2,Happy,simple
+751,751,,11,Angrily disgusted,compound
+752,752,,2,Happy,simple
+753,753,,2,Happy,simple
+754,754,,2,Happy,simple
+755,755,,5,Surprised,simple
+756,756,,2,Happy,simple
+757,757,,2,Happy,simple
+758,758,,2,Happy,simple
+759,759,,1,Neutral,simple
+760,760,,2,Happy,simple
+761,761,,2,Happy,simple
+762,762,,2,Happy,simple
+763,763,,11,Angrily disgusted,compound
+764,764,,21,Fearfully angry,compound
+765,765,,2,Happy,simple
+766,766,,11,Angrily disgusted,compound
+767,767,,2,Happy,simple
+768,768,,11,Angrily disgusted,compound
+769,769,,2,Happy,simple
+770,770,,1,Neutral,simple
+771,771,,1,Neutral,simple
+772,772,,1,Neutral,simple
+773,773,,1,Neutral,simple
+774,774,,5,Surprised,simple
+775,775,,11,Angrily disgusted,compound
+776,776,,11,Angrily disgusted,compound
+777,777,,2,Happy,simple
+778,778,,1,Neutral,simple
+779,779,,2,Happy,simple
+780,780,,5,Surprised,simple
+781,781,,2,Happy,simple
+782,782,,11,Angrily disgusted,compound
+783,783,,2,Happy,simple
+784,784,,11,Angrily disgusted,compound
+785,785,,1,Neutral,simple
+786,786,,11,Angrily disgusted,compound
+787,787,,2,Happy,simple
+788,788,,2,Happy,simple
+789,789,,2,Happy,simple
+790,790,,1,Neutral,simple
+791,791,,2,Happy,simple
+792,792,,1,Neutral,simple
+793,793,,11,Angrily disgusted,compound
+794,794,,2,Happy,simple
+795,795,,2,Happy,simple
+796,796,,11,Angrily disgusted,compound
+797,797,,11,Angrily disgusted,compound
+798,798,,11,Angrily disgusted,compound
+799,799,,2,Happy,simple
+800,800,,2,Happy,simple
+801,801,,2,Happy,simple
+802,802,,11,Angrily disgusted,compound
+803,803,,5,Surprised,simple
+804,804,,2,Happy,simple
+805,805,,2,Happy,simple
+806,806,,11,Angrily disgusted,compound
+807,807,,11,Angrily disgusted,compound
+808,808,,1,Neutral,simple
+809,809,,2,Happy,simple
+810,810,,2,Happy,simple
+811,811,,2,Happy,simple
+812,812,,1,Neutral,simple
+813,813,,5,Surprised,simple
+814,814,,2,Happy,simple
+815,815,,1,Neutral,simple
+816,816,,1,Neutral,simple
+817,817,,1,Neutral,simple
+818,818,,11,Angrily disgusted,compound
+819,819,,2,Happy,simple
+820,820,,2,Happy,simple
+821,821,,2,Happy,simple
+822,822,,5,Surprised,simple
+823,823,,2,Happy,simple
+824,824,,11,Angrily disgusted,compound
+825,825,,1,Neutral,simple
+826,826,,2,Happy,simple
+827,827,,2,Happy,simple
+828,828,,11,Angrily disgusted,compound
+829,829,,11,Angrily disgusted,compound
+830,830,,2,Happy,simple
+831,831,,1,Neutral,simple
+832,832,,1,Neutral,simple
+833,833,,2,Happy,simple
+834,834,,2,Happy,simple
+835,835,,1,Neutral,simple
+836,836,,2,Happy,simple
+837,837,,1,Neutral,simple
+838,838,,2,Happy,simple
+839,839,,2,Happy,simple
+840,840,,2,Happy,simple
+841,841,,2,Happy,simple
+842,842,,2,Happy,simple
+843,843,,1,Neutral,simple
+844,844,,2,Happy,simple
+845,845,,11,Angrily disgusted,compound
+846,846,,2,Happy,simple
+847,847,,1,Neutral,simple
+848,848,,5,Surprised,simple
+849,849,,1,Neutral,simple
+850,850,,2,Happy,simple
+851,851,,2,Happy,simple
+852,852,,2,Happy,simple
+853,853,,2,Happy,simple
+854,854,,2,Happy,simple
+855,855,,11,Angrily disgusted,compound
+856,856,,2,Happy,simple
+857,857,,2,Happy,simple
+858,858,,11,Angrily disgusted,compound
+859,859,,2,Happy,simple
+860,860,,2,Happy,simple
+861,861,,2,Happy,simple
+862,862,,5,Surprised,simple
+863,863,,2,Happy,simple
+864,864,,11,Angrily disgusted,compound
+865,865,,2,Happy,simple
+866,866,,11,Angrily disgusted,compound
+867,867,,2,Happy,simple
+868,868,,11,Angrily disgusted,compound
+869,869,,2,Happy,simple
+870,870,,11,Angrily disgusted,compound
+871,871,,11,Angrily disgusted,compound
+872,872,,2,Happy,simple
+873,873,,11,Angrily disgusted,compound
+874,874,,2,Happy,simple
+875,875,,1,Neutral,simple
+876,876,,2,Happy,simple
+877,877,,1,Neutral,simple
+878,878,,1,Neutral,simple
+879,879,,2,Happy,simple
+880,880,,1,Neutral,simple
+881,881,,2,Happy,simple
+882,882,,1,Neutral,simple
+883,883,,1,Neutral,simple
+884,884,,11,Angrily disgusted,compound
+885,885,,2,Happy,simple
+886,886,,1,Neutral,simple
+887,887,,1,Neutral,simple
+888,888,,11,Angrily disgusted,compound
+889,889,,11,Angrily disgusted,compound
+890,890,,2,Happy,simple
+891,891,,11,Angrily disgusted,compound
+892,892,,2,Happy,simple
+893,893,,1,Neutral,simple
+894,894,,2,Happy,simple
+895,895,,2,Happy,simple
+896,896,,2,Happy,simple
+897,897,,2,Happy,simple
+898,898,,11,Angrily disgusted,compound
+899,899,,11,Angrily disgusted,compound
+900,900,,11,Angrily disgusted,compound
+901,901,,2,Happy,simple
+902,902,,1,Neutral,simple
+903,903,,2,Happy,simple
+904,904,,1,Neutral,simple
+905,905,,5,Surprised,simple
+906,906,,2,Happy,simple
+907,907,,11,Angrily disgusted,compound
+908,908,,11,Angrily disgusted,compound
+909,909,,11,Angrily disgusted,compound
+910,910,,2,Happy,simple
+911,911,,5,Surprised,simple
+912,912,,2,Happy,simple
+913,913,,2,Happy,simple
+914,914,,5,Surprised,simple
+915,915,,11,Angrily disgusted,compound
+916,916,,11,Angrily disgusted,compound
+917,917,,11,Angrily disgusted,compound
+918,918,,5,Surprised,simple
+919,919,,11,Angrily disgusted,compound
+920,920,,1,Neutral,simple
+921,921,,1,Neutral,simple
+922,922,,2,Happy,simple
+923,923,,2,Happy,simple
+924,924,,2,Happy,simple
+925,925,,2,Happy,simple
+926,926,,2,Happy,simple
+927,927,,2,Happy,simple
+928,928,,2,Happy,simple
+929,929,,2,Happy,simple
+930,930,,5,Surprised,simple
+931,931,,2,Happy,simple
+932,932,,11,Angrily disgusted,compound
+933,933,,2,Happy,simple
+934,934,,2,Happy,simple
+935,935,,11,Angrily disgusted,compound
+936,936,,11,Angrily disgusted,compound
+937,937,,2,Happy,simple
+938,938,,2,Happy,simple
+939,939,,11,Angrily disgusted,compound
+940,940,,11,Angrily disgusted,compound
+941,941,,1,Neutral,simple
+942,942,,2,Happy,simple
+943,943,,2,Happy,simple
+944,944,,11,Angrily disgusted,compound
+945,945,,2,Happy,simple
+946,946,,5,Surprised,simple
+947,947,,2,Happy,simple
+948,948,,2,Happy,simple
+949,949,,1,Neutral,simple
+950,950,,11,Angrily disgusted,compound
+951,951,,5,Surprised,simple
+952,952,,11,Angrily disgusted,compound
+953,953,,2,Happy,simple
+954,954,,2,Happy,simple
+955,955,,2,Happy,simple
+956,956,,5,Surprised,simple
+957,957,,2,Happy,simple
+958,958,,5,Surprised,simple
+959,959,,2,Happy,simple
+960,960,,11,Angrily disgusted,compound
+961,961,,11,Angrily disgusted,compound
+962,962,,1,Neutral,simple
+963,963,,2,Happy,simple
+964,964,,11,Angrily disgusted,compound
+965,965,,1,Neutral,simple
+966,966,,11,Angrily disgusted,compound
+967,967,,2,Happy,simple
+968,968,,11,Angrily disgusted,compound
+969,969,,1,Neutral,simple
+970,970,,11,Angrily disgusted,compound
+971,971,,2,Happy,simple
+972,972,,2,Happy,simple
+973,973,,11,Angrily disgusted,compound
+974,974,,11,Angrily disgusted,compound
+975,975,,1,Neutral,simple
+976,976,,11,Angrily disgusted,compound
+977,977,,2,Happy,simple
+978,978,,1,Neutral,simple
+979,979,,11,Angrily disgusted,compound
+980,980,,11,Angrily disgusted,compound
+981,981,,2,Happy,simple
+982,982,,2,Happy,simple
+983,983,,5,Surprised,simple
+984,984,,1,Neutral,simple
+985,985,,1,Neutral,simple
+986,986,,5,Surprised,simple
+987,987,,2,Happy,simple
+988,988,,2,Happy,simple
+989,989,,11,Angrily disgusted,compound
+990,990,,11,Angrily disgusted,compound
+991,991,,1,Neutral,simple
+992,992,,2,Happy,simple
+993,993,,1,Neutral,simple
+994,994,,2,Happy,simple
+995,995,,5,Surprised,simple
+996,996,,11,Angrily disgusted,compound
+997,997,,1,Neutral,simple
+998,998,,2,Happy,simple
+999,999,,2,Happy,simple
+1000,1000,,11,Angrily disgusted,compound
+1001,1001,,2,Happy,simple
+1002,1002,,2,Happy,simple
+1003,1003,,11,Angrily disgusted,compound
+1004,1004,,2,Happy,simple
+1005,1005,,11,Angrily disgusted,compound
+1006,1006,,1,Neutral,simple
+1007,1007,,11,Angrily disgusted,compound
+1008,1008,,2,Happy,simple
+1009,1009,,11,Angrily disgusted,compound
+1010,1010,,11,Angrily disgusted,compound
+1011,1011,,1,Neutral,simple
+1012,1012,,11,Angrily disgusted,compound
+1013,1013,,11,Angrily disgusted,compound
+1014,1014,,11,Angrily disgusted,compound
+1015,1015,,2,Happy,simple
+1016,1016,,11,Angrily disgusted,compound
+1017,1017,,11,Angrily disgusted,compound
+1018,1018,,1,Neutral,simple
+1019,1019,,1,Neutral,simple
+1020,1020,,2,Happy,simple
+1021,1021,,11,Angrily disgusted,compound
+1022,1022,,11,Angrily disgusted,compound
+1023,1023,,11,Angrily disgusted,compound
+1024,1024,,11,Angrily disgusted,compound
+1025,1025,,1,Neutral,simple
+1026,1026,,11,Angrily disgusted,compound
+1027,1027,,5,Surprised,simple
+1028,1028,,5,Surprised,simple
+1029,1029,,2,Happy,simple
+1030,1030,,1,Neutral,simple
+1031,1031,,11,Angrily disgusted,compound
+1032,1032,,11,Angrily disgusted,compound
+1033,1033,,5,Surprised,simple
+1034,1034,,1,Neutral,simple
+1035,1035,,5,Surprised,simple
+1036,1036,,1,Neutral,simple
+1037,1037,,11,Angrily disgusted,compound
+1038,1038,,2,Happy,simple
+1039,1039,,11,Angrily disgusted,compound
+1040,1040,,2,Happy,simple
+1041,1041,,2,Happy,simple
+1042,1042,,2,Happy,simple
+1043,1043,,11,Angrily disgusted,compound
+1044,1044,,2,Happy,simple
+1045,1045,,2,Happy,simple
+1046,1046,,2,Happy,simple
+1047,1047,,2,Happy,simple
+1048,1048,,11,Angrily disgusted,compound
+1049,1049,,2,Happy,simple
+1050,1050,,2,Happy,simple
+1051,1051,,2,Happy,simple
+1052,1052,,11,Angrily disgusted,compound
+1053,1053,,5,Surprised,simple
+1054,1054,,11,Angrily disgusted,compound
+1055,1055,,11,Angrily disgusted,compound
+1056,1056,,2,Happy,simple
+1057,1057,,2,Happy,simple
+1058,1058,,11,Angrily disgusted,compound
+1059,1059,,2,Happy,simple
+1060,1060,,2,Happy,simple
+1061,1061,,5,Surprised,simple
+1062,1062,,2,Happy,simple
+1063,1063,,1,Neutral,simple
+1064,1064,,1,Neutral,simple
+1065,1065,,11,Angrily disgusted,compound
+1066,1066,,2,Happy,simple
+1067,1067,,2,Happy,simple
+1068,1068,,11,Angrily disgusted,compound
+1069,1069,,1,Neutral,simple
+1070,1070,,2,Happy,simple
+1071,1071,,2,Happy,simple
+1072,1072,,2,Happy,simple
+1073,1073,,2,Happy,simple
+1074,1074,,2,Happy,simple
+1075,1075,,5,Surprised,simple
+1076,1076,,2,Happy,simple
+1077,1077,,1,Neutral,simple
+1078,1078,,2,Happy,simple
+1079,1079,,1,Neutral,simple
+1080,1080,,2,Happy,simple
+1081,1081,,2,Happy,simple
+1082,1082,,2,Happy,simple
+1083,1083,,1,Neutral,simple
+1084,1084,,11,Angrily disgusted,compound
+1085,1085,,2,Happy,simple
+1086,1086,,2,Happy,simple
+1087,1087,,2,Happy,simple
+1088,1088,,11,Angrily disgusted,compound
+1089,1089,,2,Happy,simple
+1090,1090,,11,Angrily disgusted,compound
+1091,1091,,5,Surprised,simple
+1092,1092,,1,Neutral,simple
+1093,1093,,2,Happy,simple
+1094,1094,,2,Happy,simple
+1095,1095,,2,Happy,simple
+1096,1096,,11,Angrily disgusted,compound
+1097,1097,,11,Angrily disgusted,compound
+1098,1098,,11,Angrily disgusted,compound
+1099,1099,,11,Angrily disgusted,compound
+1100,1100,,11,Angrily disgusted,compound
+1101,1101,,1,Neutral,simple
+1102,1102,,1,Neutral,simple
+1103,1103,,2,Happy,simple
+1104,1104,,2,Happy,simple
+1105,1105,,1,Neutral,simple
+1106,1106,,1,Neutral,simple
+1107,1107,,1,Neutral,simple
+1108,1108,,2,Happy,simple
+1109,1109,,2,Happy,simple
+1110,1110,,2,Happy,simple
+1111,1111,,2,Happy,simple
+1112,1112,,1,Neutral,simple
+1113,1113,,1,Neutral,simple
+1114,1114,,1,Neutral,simple
+1115,1115,,2,Happy,simple
+1116,1116,,2,Happy,simple
+1117,1117,,11,Angrily disgusted,compound
+1118,1118,,1,Neutral,simple
+1119,1119,,1,Neutral,simple
+1120,1120,,2,Happy,simple
+1121,1121,,2,Happy,simple
+1122,1122,,5,Surprised,simple
+1123,1123,,1,Neutral,simple
+1124,1124,,1,Neutral,simple
+1125,1125,,11,Angrily disgusted,compound
+1126,1126,,2,Happy,simple
+1127,1127,,11,Angrily disgusted,compound
+1128,1128,,5,Surprised,simple
+1129,1129,,11,Angrily disgusted,compound
+1130,1130,,5,Surprised,simple
+1131,1131,,5,Surprised,simple
+1132,1132,,2,Happy,simple
+1133,1133,,2,Happy,simple
+1134,1134,,1,Neutral,simple
+1135,1135,,11,Angrily disgusted,compound
+1136,1136,,11,Angrily disgusted,compound
+1137,1137,,2,Happy,simple
+1138,1138,,1,Neutral,simple
+1139,1139,,11,Angrily disgusted,compound
+1140,1140,,2,Happy,simple
+1141,1141,,11,Angrily disgusted,compound
+1142,1142,,2,Happy,simple
+1143,1143,,11,Angrily disgusted,compound
+1144,1144,,1,Neutral,simple
+1145,1145,,2,Happy,simple
+1146,1146,,11,Angrily disgusted,compound
+1147,1147,,2,Happy,simple
+1148,1148,,2,Happy,simple
+1149,1149,,2,Happy,simple
+1150,1150,,2,Happy,simple
+1151,1151,,11,Angrily disgusted,compound
+1152,1152,,2,Happy,simple
+1153,1153,,11,Angrily disgusted,compound
+1154,1154,,2,Happy,simple
+1155,1155,,11,Angrily disgusted,compound
+1156,1156,,1,Neutral,simple
+1157,1157,,2,Happy,simple
+1158,1158,,11,Angrily disgusted,compound
+1159,1159,,2,Happy,simple
+1160,1160,,11,Angrily disgusted,compound
+1161,1161,,1,Neutral,simple
+1162,1162,,2,Happy,simple
+1163,1163,,2,Happy,simple
+1164,1164,,2,Happy,simple
+1165,1165,,11,Angrily disgusted,compound
+1166,1166,,2,Happy,simple
+1167,1167,,2,Happy,simple
+1168,1168,,11,Angrily disgusted,compound
+1169,1169,,2,Happy,simple
+1170,1170,,2,Happy,simple
+1171,1171,,1,Neutral,simple
+1172,1172,,2,Happy,simple
+1173,1173,,11,Angrily disgusted,compound
+1174,1174,,1,Neutral,simple
+1175,1175,,2,Happy,simple
+1176,1176,,11,Angrily disgusted,compound
+1177,1177,,1,Neutral,simple
+1178,1178,,11,Angrily disgusted,compound
+1179,1179,,2,Happy,simple
+1180,1180,,2,Happy,simple
+1181,1181,,11,Angrily disgusted,compound
+1182,1182,,1,Neutral,simple
+1183,1183,,2,Happy,simple
+1184,1184,,11,Angrily disgusted,compound
+1185,1185,,1,Neutral,simple
+1186,1186,,11,Angrily disgusted,compound
+1187,1187,,2,Happy,simple
+1188,1188,,2,Happy,simple
+1189,1189,,11,Angrily disgusted,compound
+1190,1190,,2,Happy,simple
+1191,1191,,2,Happy,simple
+1192,1192,,5,Surprised,simple
+1193,1193,,2,Happy,simple
+1194,1194,,2,Happy,simple
+1195,1195,,11,Angrily disgusted,compound
+1196,1196,,2,Happy,simple
+1197,1197,,2,Happy,simple
+1198,1198,,2,Happy,simple
+1199,1199,,2,Happy,simple
+1200,1200,,5,Surprised,simple
+1201,1201,,1,Neutral,simple
+1202,1202,,2,Happy,simple
+1203,1203,,2,Happy,simple
+1204,1204,,11,Angrily disgusted,compound
+1205,1205,,2,Happy,simple
+1206,1206,,11,Angrily disgusted,compound
+1207,1207,,11,Angrily disgusted,compound
+1208,1208,,2,Happy,simple
+1209,1209,,2,Happy,simple
+1210,1210,,11,Angrily disgusted,compound
+1211,1211,,2,Happy,simple
+1212,1212,,11,Angrily disgusted,compound
+1213,1213,,2,Happy,simple
+1214,1214,,11,Angrily disgusted,compound
+1215,1215,,2,Happy,simple
+1216,1216,,5,Surprised,simple
+1217,1217,,11,Angrily disgusted,compound
+1218,1218,,2,Happy,simple
+1219,1219,,2,Happy,simple
+1220,1220,,11,Angrily disgusted,compound
+1221,1221,,2,Happy,simple
+1222,1222,,11,Angrily disgusted,compound
+1223,1223,,11,Angrily disgusted,compound
+1224,1224,,1,Neutral,simple
+1225,1225,,2,Happy,simple
+1226,1226,,5,Surprised,simple
+1227,1227,,2,Happy,simple
+1228,1228,,1,Neutral,simple
+1229,1229,,2,Happy,simple
+1230,1230,,1,Neutral,simple
+1231,1231,,5,Surprised,simple
+1232,1232,,11,Angrily disgusted,compound
+1233,1233,,11,Angrily disgusted,compound
+1234,1234,,2,Happy,simple
+1235,1235,,11,Angrily disgusted,compound
+1236,1236,,11,Angrily disgusted,compound
+1237,1237,,1,Neutral,simple
+1238,1238,,11,Angrily disgusted,compound
+1239,1239,,1,Neutral,simple
+1240,1240,,5,Surprised,simple
+1241,1241,,1,Neutral,simple
+1242,1242,,2,Happy,simple
+1243,1243,,11,Angrily disgusted,compound
+1244,1244,,1,Neutral,simple
+1245,1245,,5,Surprised,simple
+1246,1246,,11,Angrily disgusted,compound
+1247,1247,,2,Happy,simple
+1248,1248,,5,Surprised,simple
+1249,1249,,1,Neutral,simple
+1250,1250,,1,Neutral,simple
+1251,1251,,1,Neutral,simple
+1252,1252,,11,Angrily disgusted,compound
+1253,1253,,2,Happy,simple
+1254,1254,,11,Angrily disgusted,compound
+1255,1255,,1,Neutral,simple
+1256,1256,,11,Angrily disgusted,compound
+1257,1257,,5,Surprised,simple
+1258,1258,,11,Angrily disgusted,compound
+1259,1259,,11,Angrily disgusted,compound
+1260,1260,,2,Happy,simple
+1261,1261,,2,Happy,simple
+1262,1262,,11,Angrily disgusted,compound
+1263,1263,,2,Happy,simple
+1264,1264,,2,Happy,simple
+1265,1265,,11,Angrily disgusted,compound
+1266,1266,,1,Neutral,simple
+1267,1267,,2,Happy,simple
+1268,1268,,11,Angrily disgusted,compound
+1269,1269,,2,Happy,simple
+1270,1270,,2,Happy,simple
+1271,1271,,5,Surprised,simple
+1272,1272,,2,Happy,simple
+1273,1273,,2,Happy,simple
+1274,1274,,2,Happy,simple
+1275,1275,,2,Happy,simple
+1276,1276,,2,Happy,simple
+1277,1277,,2,Happy,simple
+1278,1278,,5,Surprised,simple
+1279,1279,,11,Angrily disgusted,compound
+1280,1280,,5,Surprised,simple
+1281,1281,,2,Happy,simple
+1282,1282,,2,Happy,simple
+1283,1283,,2,Happy,simple
+1284,1284,,2,Happy,simple
+1285,1285,,2,Happy,simple
+1286,1286,,2,Happy,simple
+1287,1287,,11,Angrily disgusted,compound
+1288,1288,,5,Surprised,simple
+1289,1289,,1,Neutral,simple
+1290,1290,,5,Surprised,simple
+1291,1291,,2,Happy,simple
+1292,1292,,11,Angrily disgusted,compound
+1293,1293,,1,Neutral,simple
+1294,1294,,11,Angrily disgusted,compound
+1295,1295,,5,Surprised,simple
+1296,1296,,1,Neutral,simple
+1297,1297,,11,Angrily disgusted,compound
+1298,1298,,2,Happy,simple
+1299,1299,,11,Angrily disgusted,compound
+1300,1300,,2,Happy,simple
+1301,1301,,11,Angrily disgusted,compound
+1302,1302,,11,Angrily disgusted,compound
+1303,1303,,2,Happy,simple
+1304,1304,,11,Angrily disgusted,compound
+1305,1305,,5,Surprised,simple
+1306,1306,,2,Happy,simple
+1307,1307,,11,Angrily disgusted,compound
+1308,1308,,1,Neutral,simple
+1309,1309,,11,Angrily disgusted,compound
+1310,1310,,1,Neutral,simple
+1311,1311,,11,Angrily disgusted,compound
+1312,1312,,1,Neutral,simple
+1313,1313,,2,Happy,simple
+1314,1314,,1,Neutral,simple
+1315,1315,,11,Angrily disgusted,compound
+1316,1316,,1,Neutral,simple
+1317,1317,,11,Angrily disgusted,compound
+1318,1318,,2,Happy,simple
+1319,1319,,2,Happy,simple
+1320,1320,,2,Happy,simple
+1321,1321,,5,Surprised,simple
+1322,1322,,2,Happy,simple
+1323,1323,,1,Neutral,simple
+1324,1324,,11,Angrily disgusted,compound
+1325,1325,,11,Angrily disgusted,compound
+1326,1326,,2,Happy,simple
+1327,1327,,2,Happy,simple
+1328,1328,,2,Happy,simple
+1329,1329,,2,Happy,simple
+1330,1330,,5,Surprised,simple
+1331,1331,,2,Happy,simple
+1332,1332,,2,Happy,simple
+1333,1333,,2,Happy,simple
+1334,1334,,2,Happy,simple
+1335,1335,,1,Neutral,simple
+1336,1336,,1,Neutral,simple
+1337,1337,,2,Happy,simple
+1338,1338,,2,Happy,simple
+1339,1339,,5,Surprised,simple
+1340,1340,,2,Happy,simple
+1341,1341,,2,Happy,simple
+1342,1342,,2,Happy,simple
+1343,1343,,2,Happy,simple
+1344,1344,,11,Angrily disgusted,compound
+1345,1345,,2,Happy,simple
+1346,1346,,2,Happy,simple
+1347,1347,,1,Neutral,simple
+1348,1348,,5,Surprised,simple
+1349,1349,,2,Happy,simple
+1350,1350,,1,Neutral,simple
+1351,1351,,11,Angrily disgusted,compound
+1352,1352,,2,Happy,simple
+1353,1353,,11,Angrily disgusted,compound
+1354,1354,,2,Happy,simple
+1355,1355,,11,Angrily disgusted,compound
+1356,1356,,11,Angrily disgusted,compound
+1357,1357,,2,Happy,simple
+1358,1358,,2,Happy,simple
+1359,1359,,1,Neutral,simple
+1360,1360,,1,Neutral,simple
+1361,1361,,5,Surprised,simple
+1362,1362,,2,Happy,simple
+1363,1363,,2,Happy,simple
+1364,1364,,2,Happy,simple
+1365,1365,,2,Happy,simple
+1366,1366,,1,Neutral,simple
+1367,1367,,2,Happy,simple
+1368,1368,,1,Neutral,simple
+1369,1369,,1,Neutral,simple
+1370,1370,,1,Neutral,simple
+1371,1371,,1,Neutral,simple
+1372,1372,,2,Happy,simple
+1373,1373,,11,Angrily disgusted,compound
+1374,1374,,5,Surprised,simple
+1375,1375,,5,Surprised,simple
+1376,1376,,2,Happy,simple
+1377,1377,,1,Neutral,simple
+1378,1378,,2,Happy,simple
+1379,1379,,11,Angrily disgusted,compound
+1380,1380,,1,Neutral,simple
+1381,1381,,11,Angrily disgusted,compound
+1382,1382,,2,Happy,simple
+1383,1383,,2,Happy,simple
+1384,1384,,1,Neutral,simple
+1385,1385,,11,Angrily disgusted,compound
+1386,1386,,1,Neutral,simple
+1387,1387,,1,Neutral,simple
+1388,1388,,5,Surprised,simple
+1389,1389,,2,Happy,simple
+1390,1390,,2,Happy,simple
+1391,1391,,1,Neutral,simple
+1392,1392,,2,Happy,simple
+1393,1393,,1,Neutral,simple
+1394,1394,,11,Angrily disgusted,compound
+1395,1395,,2,Happy,simple
+1396,1396,,1,Neutral,simple
+1397,1397,,2,Happy,simple
+1398,1398,,2,Happy,simple
+1399,1399,,11,Angrily disgusted,compound
+1400,1400,,11,Angrily disgusted,compound
+1401,1401,,1,Neutral,simple
+1402,1402,,11,Angrily disgusted,compound
+1403,1403,,5,Surprised,simple
+1404,1404,,1,Neutral,simple
+1405,1405,,2,Happy,simple
+1406,1406,,2,Happy,simple
+1407,1407,,5,Surprised,simple
+1408,1408,,2,Happy,simple
+1409,1409,,1,Neutral,simple
+1410,1410,,11,Angrily disgusted,compound
+1411,1411,,2,Happy,simple
+1412,1412,,2,Happy,simple
+1413,1413,,2,Happy,simple
+1414,1414,,11,Angrily disgusted,compound
+1415,1415,,1,Neutral,simple
+1416,1416,,1,Neutral,simple
+1417,1417,,2,Happy,simple
+1418,1418,,2,Happy,simple
+1419,1419,,2,Happy,simple
+1420,1420,,11,Angrily disgusted,compound
+1421,1421,,2,Happy,simple
+1422,1422,,11,Angrily disgusted,compound
+1423,1423,,1,Neutral,simple
+1424,1424,,11,Angrily disgusted,compound
+1425,1425,,1,Neutral,simple
+1426,1426,,2,Happy,simple
+1427,1427,,2,Happy,simple
+1428,1428,,2,Happy,simple
+1429,1429,,11,Angrily disgusted,compound
+1430,1430,,2,Happy,simple
+1431,1431,,1,Neutral,simple
+1432,1432,,1,Neutral,simple
+1433,1433,,1,Neutral,simple
+1434,1434,,2,Happy,simple
+1435,1435,,2,Happy,simple
+1436,1436,,1,Neutral,simple
+1437,1437,,2,Happy,simple
+1438,1438,,11,Angrily disgusted,compound
+1439,1439,,11,Angrily disgusted,compound
+1440,1440,,2,Happy,simple
+1441,1441,,2,Happy,simple
+1442,1442,,2,Happy,simple
+1443,1443,,2,Happy,simple
+1444,1444,,11,Angrily disgusted,compound
+1445,1445,,1,Neutral,simple
+1446,1446,,2,Happy,simple
+1447,1447,,11,Angrily disgusted,compound
+1448,1448,,2,Happy,simple
+1449,1449,,1,Neutral,simple
+1450,1450,,2,Happy,simple
+1451,1451,,2,Happy,simple
+1452,1452,,1,Neutral,simple
+1453,1453,,11,Angrily disgusted,compound
+1454,1454,,2,Happy,simple
+1455,1455,,2,Happy,simple
+1456,1456,,1,Neutral,simple
+1457,1457,,2,Happy,simple
+1458,1458,,2,Happy,simple
+1459,1459,,11,Angrily disgusted,compound
+1460,1460,,2,Happy,simple
+1461,1461,,2,Happy,simple
+1462,1462,,1,Neutral,simple
+1463,1463,,11,Angrily disgusted,compound
+1464,1464,,1,Neutral,simple
+1465,1465,,2,Happy,simple
+1466,1466,,2,Happy,simple
+1467,1467,,2,Happy,simple
+1468,1468,,2,Happy,simple
+1469,1469,,2,Happy,simple
+1470,1470,,1,Neutral,simple
+1471,1471,,11,Angrily disgusted,compound
+1472,1472,,2,Happy,simple
+1473,1473,,11,Angrily disgusted,compound
+1474,1474,,2,Happy,simple
+1475,1475,,2,Happy,simple
+1476,1476,,2,Happy,simple
+1477,1477,,2,Happy,simple
+1478,1478,,2,Happy,simple
+1479,1479,,11,Angrily disgusted,compound
+1480,1480,,2,Happy,simple
+1481,1481,,2,Happy,simple
+1482,1482,,2,Happy,simple
+1483,1483,,11,Angrily disgusted,compound
+1484,1484,,2,Happy,simple
+1485,1485,,1,Neutral,simple
+1486,1486,,2,Happy,simple
+1487,1487,,2,Happy,simple
+1488,1488,,2,Happy,simple
+1489,1489,,11,Angrily disgusted,compound
+1490,1490,,2,Happy,simple
+1491,1491,,2,Happy,simple
+1492,1492,,1,Neutral,simple
+1493,1493,,2,Happy,simple
+1494,1494,,11,Angrily disgusted,compound
+1495,1495,,2,Happy,simple
+1496,1496,,1,Neutral,simple
+1497,1497,,11,Angrily disgusted,compound
+1498,1498,,1,Neutral,simple
+1499,1499,,11,Angrily disgusted,compound
+1500,1500,,11,Angrily disgusted,compound
+1501,1501,,2,Happy,simple
+1502,1502,,2,Happy,simple
+1503,1503,,11,Angrily disgusted,compound
+1504,1504,,2,Happy,simple
+1505,1505,,2,Happy,simple
+1506,1506,,11,Angrily disgusted,compound
+1507,1507,,1,Neutral,simple
+1508,1508,,1,Neutral,simple
+1509,1509,,2,Happy,simple
+1510,1510,,11,Angrily disgusted,compound
+1511,1511,,2,Happy,simple
+1512,1512,,2,Happy,simple
+1513,1513,,2,Happy,simple
+1514,1514,,2,Happy,simple
+1515,1515,,2,Happy,simple
+1516,1516,,11,Angrily disgusted,compound
+1517,1517,,1,Neutral,simple
+1518,1518,,1,Neutral,simple
+1519,1519,,2,Happy,simple
+1520,1520,,2,Happy,simple
+1521,1521,,2,Happy,simple
+1522,1522,,5,Surprised,simple
+1523,1523,,11,Angrily disgusted,compound
+1524,1524,,11,Angrily disgusted,compound
+1525,1525,,11,Angrily disgusted,compound
+1526,1526,,2,Happy,simple
+1527,1527,,2,Happy,simple
+1528,1528,,2,Happy,simple
+1529,1529,,1,Neutral,simple
+1530,1530,,2,Happy,simple
+1531,1531,,2,Happy,simple
+1532,1532,,1,Neutral,simple
+1533,1533,,2,Happy,simple
+1534,1534,,11,Angrily disgusted,compound
+1535,1535,,2,Happy,simple
+1536,1536,,2,Happy,simple
+1537,1537,,5,Surprised,simple
+1538,1538,,11,Angrily disgusted,compound
+1539,1539,,11,Angrily disgusted,compound
+1540,1540,,2,Happy,simple
+1541,1541,,5,Surprised,simple
+1542,1542,,2,Happy,simple
+1543,1543,,11,Angrily disgusted,compound
+1544,1544,,11,Angrily disgusted,compound
+1545,1545,,11,Angrily disgusted,compound
+1546,1546,,2,Happy,simple
+1547,1547,,1,Neutral,simple
+1548,1548,,2,Happy,simple
+1549,1549,,2,Happy,simple
+1550,1550,,2,Happy,simple
+1551,1551,,2,Happy,simple
+1552,1552,,2,Happy,simple
+1553,1553,,2,Happy,simple
+1554,1554,,11,Angrily disgusted,compound
+1555,1555,,2,Happy,simple
+1556,1556,,1,Neutral,simple
+1557,1557,,11,Angrily disgusted,compound
+1558,1558,,2,Happy,simple
+1559,1559,,2,Happy,simple
+1560,1560,,11,Angrily disgusted,compound
+1561,1561,,2,Happy,simple
+1562,1562,,2,Happy,simple
+1563,1563,,11,Angrily disgusted,compound
+1564,1564,,1,Neutral,simple
+1565,1565,,2,Happy,simple
+1566,1566,,2,Happy,simple
+1567,1567,,5,Surprised,simple
+1568,1568,,1,Neutral,simple
+1569,1569,,1,Neutral,simple
+1570,1570,,11,Angrily disgusted,compound
+1571,1571,,1,Neutral,simple
+1572,1572,,11,Angrily disgusted,compound
+1573,1573,,2,Happy,simple
+1574,1574,,1,Neutral,simple
+1575,1575,,2,Happy,simple
+1576,1576,,11,Angrily disgusted,compound
+1577,1577,,2,Happy,simple
+1578,1578,,2,Happy,simple
+1579,1579,,2,Happy,simple
+1580,1580,,5,Surprised,simple
+1581,1581,,11,Angrily disgusted,compound
+1582,1582,,11,Angrily disgusted,compound
+1583,1583,,11,Angrily disgusted,compound
+1584,1584,,1,Neutral,simple
+1585,1585,,5,Surprised,simple
+1586,1586,,2,Happy,simple
+1587,1587,,2,Happy,simple
+1588,1588,,11,Angrily disgusted,compound
+1589,1589,,2,Happy,simple
+1590,1590,,2,Happy,simple
+1591,1591,,2,Happy,simple
+1592,1592,,11,Angrily disgusted,compound
+1593,1593,,11,Angrily disgusted,compound
+1594,1594,,1,Neutral,simple
+1595,1595,,2,Happy,simple
+1596,1596,,1,Neutral,simple
+1597,1597,,2,Happy,simple
+1598,1598,,2,Happy,simple
+1599,1599,,11,Angrily disgusted,compound
+1600,1600,,11,Angrily disgusted,compound
+1601,1601,,2,Happy,simple
+1602,1602,,11,Angrily disgusted,compound
+1603,1603,,1,Neutral,simple
+1604,1604,,11,Angrily disgusted,compound
+1605,1605,,5,Surprised,simple
+1606,1606,,11,Angrily disgusted,compound
+1607,1607,,2,Happy,simple
+1608,1608,,5,Surprised,simple
+1609,1609,,11,Angrily disgusted,compound
+1610,1610,,2,Happy,simple
+1611,1611,,2,Happy,simple
+1612,1612,,1,Neutral,simple
+1613,1613,,5,Surprised,simple
+1614,1614,,1,Neutral,simple
+1615,1615,,11,Angrily disgusted,compound
+1616,1616,,2,Happy,simple
+1617,1617,,1,Neutral,simple
+1618,1618,,2,Happy,simple
+1619,1619,,2,Happy,simple
+1620,1620,,11,Angrily disgusted,compound
+1621,1621,,1,Neutral,simple
+1622,1622,,11,Angrily disgusted,compound
+1623,1623,,2,Happy,simple
+1624,1624,,2,Happy,simple
+1625,1625,,2,Happy,simple
+1626,1626,,1,Neutral,simple
+1627,1627,,1,Neutral,simple
+1628,1628,,1,Neutral,simple
+1629,1629,,11,Angrily disgusted,compound
+1630,1630,,11,Angrily disgusted,compound
+1631,1631,,1,Neutral,simple
+1632,1632,,2,Happy,simple
+1633,1633,,2,Happy,simple
+1634,1634,,5,Surprised,simple
+1635,1635,,2,Happy,simple
+1636,1636,,11,Angrily disgusted,compound
+1637,1637,,5,Surprised,simple
+1638,1638,,1,Neutral,simple
+1639,1639,,1,Neutral,simple
+1640,1640,,11,Angrily disgusted,compound
+1641,1641,,11,Angrily disgusted,compound
+1642,1642,,11,Angrily disgusted,compound
+1643,1643,,2,Happy,simple
+1644,1644,,2,Happy,simple
+1645,1645,,1,Neutral,simple
+1646,1646,,2,Happy,simple
+1647,1647,,2,Happy,simple
+1648,1648,,2,Happy,simple
+1649,1649,,2,Happy,simple
+1650,1650,,2,Happy,simple
+1651,1651,,1,Neutral,simple
+1652,1652,,11,Angrily disgusted,compound
+1653,1653,,11,Angrily disgusted,compound
+1654,1654,,2,Happy,simple
+1655,1655,,2,Happy,simple
+1656,1656,,1,Neutral,simple
+1657,1657,,2,Happy,simple
+1658,1658,,11,Angrily disgusted,compound
+1659,1659,,1,Neutral,simple
+1660,1660,,2,Happy,simple
+1661,1661,,2,Happy,simple
+1662,1662,,2,Happy,simple
+1663,1663,,1,Neutral,simple
+1664,1664,,2,Happy,simple
+1665,1665,,2,Happy,simple
+1666,1666,,2,Happy,simple
+1667,1667,,5,Surprised,simple
+1668,1668,,2,Happy,simple
+1669,1669,,2,Happy,simple
+1670,1670,,1,Neutral,simple
+1671,1671,,2,Happy,simple
+1672,1672,,2,Happy,simple
+1673,1673,,11,Angrily disgusted,compound
+1674,1674,,2,Happy,simple
+1675,1675,,2,Happy,simple
+1676,1676,,11,Angrily disgusted,compound
+1677,1677,,2,Happy,simple
+1678,1678,,5,Surprised,simple
+1679,1679,,5,Surprised,simple
+1680,1680,,2,Happy,simple
+1681,1681,,2,Happy,simple
+1682,1682,,5,Surprised,simple
+1683,1683,,11,Angrily disgusted,compound
+1684,1684,,2,Happy,simple
+1685,1685,,1,Neutral,simple
+1686,1686,,2,Happy,simple
+1687,1687,,2,Happy,simple
+1688,1688,,5,Surprised,simple
+1689,1689,,11,Angrily disgusted,compound
+1690,1690,,2,Happy,simple
+1691,1691,,2,Happy,simple
+1692,1692,,5,Surprised,simple
+1693,1693,,2,Happy,simple
+1694,1694,,2,Happy,simple
+1695,1695,,2,Happy,simple
+1696,1696,,2,Happy,simple
+1697,1697,,2,Happy,simple
+1698,1698,,2,Happy,simple
+1699,1699,,5,Surprised,simple
+1700,1700,,2,Happy,simple
+1701,1701,,2,Happy,simple
+1702,1702,,5,Surprised,simple
+1703,1703,,2,Happy,simple
+1704,1704,,2,Happy,simple
+1705,1705,,2,Happy,simple
+1706,1706,,2,Happy,simple
+1707,1707,,1,Neutral,simple
+1708,1708,,11,Angrily disgusted,compound
+1709,1709,,1,Neutral,simple
+1710,1710,,2,Happy,simple
+1711,1711,,2,Happy,simple
+1712,1712,,2,Happy,simple
+1713,1713,,2,Happy,simple
+1714,1714,,2,Happy,simple
+1715,1715,,11,Angrily disgusted,compound
+1716,1716,,1,Neutral,simple
+1717,1717,,1,Neutral,simple
+1718,1718,,2,Happy,simple
+1719,1719,,5,Surprised,simple
+1720,1720,,2,Happy,simple
+1721,1721,,11,Angrily disgusted,compound
+1722,1722,,11,Angrily disgusted,compound
+1723,1723,,5,Surprised,simple
+1724,1724,,1,Neutral,simple
+1725,1725,,2,Happy,simple
+1726,1726,,2,Happy,simple
+1727,1727,,1,Neutral,simple
+1728,1728,,2,Happy,simple
+1729,1729,,11,Angrily disgusted,compound
+1730,1730,,11,Angrily disgusted,compound
+1731,1731,,1,Neutral,simple
+1732,1732,,2,Happy,simple
+1733,1733,,11,Angrily disgusted,compound
+1734,1734,,1,Neutral,simple
+1735,1735,,2,Happy,simple
+1736,1736,,2,Happy,simple
+1737,1737,,2,Happy,simple
+1738,1738,,2,Happy,simple
+1739,1739,,1,Neutral,simple
+1740,1740,,11,Angrily disgusted,compound
+1741,1741,,11,Angrily disgusted,compound
+1742,1742,,2,Happy,simple
+1743,1743,,11,Angrily disgusted,compound
+1744,1744,,2,Happy,simple
+1745,1745,,11,Angrily disgusted,compound
+1746,1746,,2,Happy,simple
+1747,1747,,2,Happy,simple
+1748,1748,,2,Happy,simple
+1749,1749,,1,Neutral,simple
+1750,1750,,2,Happy,simple
+1751,1751,,2,Happy,simple
+1752,1752,,1,Neutral,simple
+1753,1753,,1,Neutral,simple
+1754,1754,,11,Angrily disgusted,compound
+1755,1755,,2,Happy,simple
+1756,1756,,1,Neutral,simple
+1757,1757,,2,Happy,simple
+1758,1758,,2,Happy,simple
+1759,1759,,2,Happy,simple
+1760,1760,,11,Angrily disgusted,compound
+1761,1761,,1,Neutral,simple
+1762,1762,,2,Happy,simple
+1763,1763,,2,Happy,simple
+1764,1764,,1,Neutral,simple
+1765,1765,,5,Surprised,simple
+1766,1766,,1,Neutral,simple
+1767,1767,,2,Happy,simple
+1768,1768,,1,Neutral,simple
+1769,1769,,11,Angrily disgusted,compound
+1770,1770,,11,Angrily disgusted,compound
+1771,1771,,1,Neutral,simple
+1772,1772,,2,Happy,simple
+1773,1773,,5,Surprised,simple
+1774,1774,,2,Happy,simple
+1775,1775,,11,Angrily disgusted,compound
+1776,1776,,1,Neutral,simple
+1777,1777,,11,Angrily disgusted,compound
+1778,1778,,2,Happy,simple
+1779,1779,,11,Angrily disgusted,compound
+1780,1780,,2,Happy,simple
+1781,1781,,2,Happy,simple
+1782,1782,,11,Angrily disgusted,compound
+1783,1783,,2,Happy,simple
+1784,1784,,1,Neutral,simple
+1785,1785,,1,Neutral,simple
+1786,1786,,2,Happy,simple
+1787,1787,,2,Happy,simple
+1788,1788,,1,Neutral,simple
+1789,1789,,11,Angrily disgusted,compound
+1790,1790,,2,Happy,simple
+1791,1791,,1,Neutral,simple
+1792,1792,,2,Happy,simple
+1793,1793,,2,Happy,simple
+1794,1794,,11,Angrily disgusted,compound
+1795,1795,,1,Neutral,simple
+1796,1796,,2,Happy,simple
+1797,1797,,11,Angrily disgusted,compound
+1798,1798,,11,Angrily disgusted,compound
+1799,1799,,11,Angrily disgusted,compound
+1800,1800,,11,Angrily disgusted,compound
+1801,1801,,11,Angrily disgusted,compound
+1802,1802,,2,Happy,simple
+1803,1803,,11,Angrily disgusted,compound
+1804,1804,,2,Happy,simple
+1805,1805,,11,Angrily disgusted,compound
+1806,1806,,1,Neutral,simple
+1807,1807,,11,Angrily disgusted,compound
+1808,1808,,11,Angrily disgusted,compound
+1809,1809,,11,Angrily disgusted,compound
+1810,1810,,11,Angrily disgusted,compound
+1811,1811,,1,Neutral,simple
+1812,1812,,2,Happy,simple
+1813,1813,,11,Angrily disgusted,compound
+1814,1814,,11,Angrily disgusted,compound
+1815,1815,,11,Angrily disgusted,compound
+1816,1816,,2,Happy,simple
+1817,1817,,11,Angrily disgusted,compound
+1818,1818,,5,Surprised,simple
+1819,1819,,2,Happy,simple
+1820,1820,,5,Surprised,simple
+1821,1821,,2,Happy,simple
+1822,1822,,2,Happy,simple
+1823,1823,,11,Angrily disgusted,compound
+1824,1824,,2,Happy,simple
+1825,1825,,2,Happy,simple
+1826,1826,,1,Neutral,simple
+1827,1827,,11,Angrily disgusted,compound
+1828,1828,,2,Happy,simple
+1829,1829,,2,Happy,simple
+1830,1830,,11,Angrily disgusted,compound
+1831,1831,,11,Angrily disgusted,compound
+1832,1832,,2,Happy,simple
+1833,1833,,2,Happy,simple
+1834,1834,,1,Neutral,simple
+1835,1835,,2,Happy,simple
+1836,1836,,1,Neutral,simple
+1837,1837,,2,Happy,simple
+1838,1838,,2,Happy,simple
+1839,1839,,2,Happy,simple
+1840,1840,,11,Angrily disgusted,compound
+1841,1841,,2,Happy,simple
+1842,1842,,2,Happy,simple
+1843,1843,,2,Happy,simple
+1844,1844,,1,Neutral,simple
+1845,1845,,2,Happy,simple
+1846,1846,,2,Happy,simple
+1847,1847,,2,Happy,simple
+1848,1848,,2,Happy,simple
+1849,1849,,2,Happy,simple
+1850,1850,,11,Angrily disgusted,compound
+1851,1851,,11,Angrily disgusted,compound
+1852,1852,,2,Happy,simple
+1853,1853,,2,Happy,simple
+1854,1854,,2,Happy,simple
+1855,1855,,2,Happy,simple
+1856,1856,,2,Happy,simple
+1857,1857,,2,Happy,simple
+1858,1858,,1,Neutral,simple
+1859,1859,,11,Angrily disgusted,compound
+1860,1860,,11,Angrily disgusted,compound
+1861,1861,,2,Happy,simple
+1862,1862,,2,Happy,simple
+1863,1863,,11,Angrily disgusted,compound
+1864,1864,,1,Neutral,simple
+1865,1865,,5,Surprised,simple
+1866,1866,,2,Happy,simple
+1867,1867,,2,Happy,simple
+1868,1868,,2,Happy,simple
+1869,1869,,2,Happy,simple
+1870,1870,,2,Happy,simple
+1871,1871,,11,Angrily disgusted,compound
+1872,1872,,2,Happy,simple
+1873,1873,,1,Neutral,simple
+1874,1874,,2,Happy,simple
+1875,1875,,11,Angrily disgusted,compound
+1876,1876,,2,Happy,simple
+1877,1877,,11,Angrily disgusted,compound
+1878,1878,,2,Happy,simple
+1879,1879,,2,Happy,simple
+1880,1880,,2,Happy,simple
+1881,1881,,1,Neutral,simple
+1882,1882,,2,Happy,simple
+1883,1883,,1,Neutral,simple
+1884,1884,,2,Happy,simple
+1885,1885,,1,Neutral,simple
+1886,1886,,11,Angrily disgusted,compound
+1887,1887,,21,Fearfully angry,compound
+1888,1888,,11,Angrily disgusted,compound
+1889,1889,,11,Angrily disgusted,compound
+1890,1890,,11,Angrily disgusted,compound
+1891,1891,,1,Neutral,simple
+1892,1892,,11,Angrily disgusted,compound
+1893,1893,,2,Happy,simple
+1894,1894,,2,Happy,simple
+1895,1895,,2,Happy,simple
+1896,1896,,2,Happy,simple
+1897,1897,,2,Happy,simple
+1898,1898,,11,Angrily disgusted,compound
+1899,1899,,1,Neutral,simple
+1900,1900,,11,Angrily disgusted,compound
+1901,1901,,1,Neutral,simple
+1902,1902,,2,Happy,simple
+1903,1903,,11,Angrily disgusted,compound
+1904,1904,,5,Surprised,simple
+1905,1905,,1,Neutral,simple
+1906,1906,,11,Angrily disgusted,compound
+1907,1907,,11,Angrily disgusted,compound
+1908,1908,,1,Neutral,simple
+1909,1909,,2,Happy,simple
+1910,1910,,2,Happy,simple
+1911,1911,,1,Neutral,simple
+1912,1912,,11,Angrily disgusted,compound
+1913,1913,,11,Angrily disgusted,compound
+1914,1914,,11,Angrily disgusted,compound
+1915,1915,,11,Angrily disgusted,compound
+1916,1916,,11,Angrily disgusted,compound
+1917,1917,,2,Happy,simple
+1918,1918,,2,Happy,simple
+1919,1919,,11,Angrily disgusted,compound
+1920,1920,,11,Angrily disgusted,compound
+1921,1921,,2,Happy,simple
+1922,1922,,11,Angrily disgusted,compound
+1923,1923,,2,Happy,simple
+1924,1924,,11,Angrily disgusted,compound
+1925,1925,,2,Happy,simple
+1926,1926,,2,Happy,simple
+1927,1927,,11,Angrily disgusted,compound
+1928,1928,,2,Happy,simple
+1929,1929,,2,Happy,simple
+1930,1930,,2,Happy,simple
+1931,1931,,2,Happy,simple
+1932,1932,,11,Angrily disgusted,compound
+1933,1933,,2,Happy,simple
+1934,1934,,5,Surprised,simple
+1935,1935,,5,Surprised,simple
+1936,1936,,2,Happy,simple
+1937,1937,,11,Angrily disgusted,compound
+1938,1938,,2,Happy,simple
+1939,1939,,1,Neutral,simple
+1940,1940,,11,Angrily disgusted,compound
+1941,1941,,11,Angrily disgusted,compound
+1942,1942,,2,Happy,simple
+1943,1943,,11,Angrily disgusted,compound
+1944,1944,,11,Angrily disgusted,compound
+1945,1945,,11,Angrily disgusted,compound
+1946,1946,,2,Happy,simple
+1947,1947,,5,Surprised,simple
+1948,1948,,2,Happy,simple
+1949,1949,,11,Angrily disgusted,compound
+1950,1950,,2,Happy,simple
+1951,1951,,2,Happy,simple
+1952,1952,,2,Happy,simple
+1953,1953,,2,Happy,simple
+1954,1954,,1,Neutral,simple
+1955,1955,,1,Neutral,simple
+1956,1956,,11,Angrily disgusted,compound
+1957,1957,,2,Happy,simple
+1958,1958,,11,Angrily disgusted,compound
+1959,1959,,2,Happy,simple
+1960,1960,,2,Happy,simple
+1961,1961,,1,Neutral,simple
+1962,1962,,2,Happy,simple
+1963,1963,,1,Neutral,simple
+1964,1964,,2,Happy,simple
+1965,1965,,1,Neutral,simple
+1966,1966,,2,Happy,simple
+1967,1967,,2,Happy,simple
+1968,1968,,2,Happy,simple
+1969,1969,,2,Happy,simple
+1970,1970,,11,Angrily disgusted,compound
+1971,1971,,2,Happy,simple
+1972,1972,,2,Happy,simple
+1973,1973,,2,Happy,simple
+1974,1974,,1,Neutral,simple
+1975,1975,,1,Neutral,simple
+1976,1976,,5,Surprised,simple
+1977,1977,,2,Happy,simple
+1978,1978,,1,Neutral,simple
+1979,1979,,1,Neutral,simple
+1980,1980,,2,Happy,simple
+1981,1981,,11,Angrily disgusted,compound
+1982,1982,,2,Happy,simple
+1983,1983,,2,Happy,simple
+1984,1984,,1,Neutral,simple
+1985,1985,,1,Neutral,simple
+1986,1986,,2,Happy,simple
+1987,1987,,11,Angrily disgusted,compound
+1988,1988,,5,Surprised,simple
+1989,1989,,2,Happy,simple
+1990,1990,,2,Happy,simple
+1991,1991,,2,Happy,simple
+1992,1992,,11,Angrily disgusted,compound
+1993,1993,,2,Happy,simple
+1994,1994,,5,Surprised,simple
+1995,1995,,2,Happy,simple
+1996,1996,,2,Happy,simple
+1997,1997,,2,Happy,simple
+1998,1998,,5,Surprised,simple
+1999,1999,,2,Happy,simple
+2000,2000,,2,Happy,simple
+2001,2001,,2,Happy,simple
+2002,2002,,1,Neutral,simple
+2003,2003,,2,Happy,simple
+2004,2004,,2,Happy,simple
+2005,2005,,1,Neutral,simple
+2006,2006,,11,Angrily disgusted,compound
+2007,2007,,11,Angrily disgusted,compound
+2008,2008,,11,Angrily disgusted,compound
+2009,2009,,11,Angrily disgusted,compound
+2010,2010,,2,Happy,simple
+2011,2011,,11,Angrily disgusted,compound
+2012,2012,,2,Happy,simple
+2013,2013,,11,Angrily disgusted,compound
+2014,2014,,1,Neutral,simple
+2015,2015,,2,Happy,simple
+2016,2016,,2,Happy,simple
+2017,2017,,2,Happy,simple
+2018,2018,,5,Surprised,simple
+2019,2019,,11,Angrily disgusted,compound
+2020,2020,,5,Surprised,simple
+2021,2021,,2,Happy,simple
+2022,2022,,5,Surprised,simple
+2023,2023,,11,Angrily disgusted,compound
+2024,2024,,11,Angrily disgusted,compound
+2025,2025,,11,Angrily disgusted,compound
+2026,2026,,2,Happy,simple
+2027,2027,,11,Angrily disgusted,compound
+2028,2028,,2,Happy,simple
+2029,2029,,11,Angrily disgusted,compound
+2030,2030,,5,Surprised,simple
+2031,2031,,2,Happy,simple
+2032,2032,,11,Angrily disgusted,compound
+2033,2033,,11,Angrily disgusted,compound
+2034,2034,,11,Angrily disgusted,compound
+2035,2035,,1,Neutral,simple
+2036,2036,,11,Angrily disgusted,compound
+2037,2037,,2,Happy,simple
+2038,2038,,2,Happy,simple
+2039,2039,,1,Neutral,simple
+2040,2040,,1,Neutral,simple
+2041,2041,,1,Neutral,simple
+2042,2042,,11,Angrily disgusted,compound
+2043,2043,,11,Angrily disgusted,compound
+2044,2044,,11,Angrily disgusted,compound
+2045,2045,,1,Neutral,simple
+2046,2046,,11,Angrily disgusted,compound
+2047,2047,,1,Neutral,simple
+2048,2048,,11,Angrily disgusted,compound
+2049,2049,,1,Neutral,simple
+2050,2050,,1,Neutral,simple
+2051,2051,,11,Angrily disgusted,compound
+2052,2052,,2,Happy,simple
+2053,2053,,11,Angrily disgusted,compound
+2054,2054,,2,Happy,simple
+2055,2055,,11,Angrily disgusted,compound
+2056,2056,,2,Happy,simple
+2057,2057,,2,Happy,simple
+2058,2058,,1,Neutral,simple
+2059,2059,,1,Neutral,simple
+2060,2060,,11,Angrily disgusted,compound
+2061,2061,,2,Happy,simple
+2062,2062,,1,Neutral,simple
+2063,2063,,11,Angrily disgusted,compound
+2064,2064,,11,Angrily disgusted,compound
+2065,2065,,11,Angrily disgusted,compound
+2066,2066,,1,Neutral,simple
+2067,2067,,2,Happy,simple
+2068,2068,,11,Angrily disgusted,compound
+2069,2069,,11,Angrily disgusted,compound
+2070,2070,,1,Neutral,simple
+2071,2071,,11,Angrily disgusted,compound
+2072,2072,,2,Happy,simple
+2073,2073,,2,Happy,simple
+2074,2074,,11,Angrily disgusted,compound
+2075,2075,,11,Angrily disgusted,compound
+2076,2076,,5,Surprised,simple
+2077,2077,,2,Happy,simple
+2078,2078,,11,Angrily disgusted,compound
+2079,2079,,5,Surprised,simple
+2080,2080,,11,Angrily disgusted,compound
+2081,2081,,2,Happy,simple
+2082,2082,,11,Angrily disgusted,compound
+2083,2083,,2,Happy,simple
+2084,2084,,1,Neutral,simple
+2085,2085,,2,Happy,simple
+2086,2086,,11,Angrily disgusted,compound
+2087,2087,,1,Neutral,simple
+2088,2088,,11,Angrily disgusted,compound
+2089,2089,,2,Happy,simple
+2090,2090,,11,Angrily disgusted,compound
+2091,2091,,11,Angrily disgusted,compound
+2092,2092,,2,Happy,simple
+2093,2093,,11,Angrily disgusted,compound
+2094,2094,,2,Happy,simple
+2095,2095,,11,Angrily disgusted,compound
+2096,2096,,1,Neutral,simple
+2097,2097,,2,Happy,simple
+2098,2098,,2,Happy,simple
+2099,2099,,11,Angrily disgusted,compound
+2100,2100,,1,Neutral,simple
+2101,2101,,11,Angrily disgusted,compound
+2102,2102,,11,Angrily disgusted,compound
+2103,2103,,2,Happy,simple
+2104,2104,,2,Happy,simple
+2105,2105,,2,Happy,simple
+2106,2106,,2,Happy,simple
+2107,2107,,11,Angrily disgusted,compound
+2108,2108,,2,Happy,simple
+2109,2109,,2,Happy,simple
+2110,2110,,2,Happy,simple
+2111,2111,,1,Neutral,simple
+2112,2112,,11,Angrily disgusted,compound
+2113,2113,,1,Neutral,simple
+2114,2114,,2,Happy,simple
+2115,2115,,2,Happy,simple
+2116,2116,,2,Happy,simple
+2117,2117,,11,Angrily disgusted,compound
+2118,2118,,1,Neutral,simple
+2119,2119,,1,Neutral,simple
+2120,2120,,2,Happy,simple
+2121,2121,,11,Angrily disgusted,compound
+2122,2122,,1,Neutral,simple
+2123,2123,,11,Angrily disgusted,compound
+2124,2124,,2,Happy,simple
+2125,2125,,5,Surprised,simple
+2126,2126,,5,Surprised,simple
+2127,2127,,2,Happy,simple
+2128,2128,,1,Neutral,simple
+2129,2129,,1,Neutral,simple
+2130,2130,,2,Happy,simple
+2131,2131,,11,Angrily disgusted,compound
+2132,2132,,2,Happy,simple
+2133,2133,,11,Angrily disgusted,compound
+2134,2134,,2,Happy,simple
+2135,2135,,2,Happy,simple
+2136,2136,,2,Happy,simple
+2137,2137,,2,Happy,simple
+2138,2138,,2,Happy,simple
+2139,2139,,5,Surprised,simple
+2140,2140,,2,Happy,simple
+2141,2141,,11,Angrily disgusted,compound
+2142,2142,,2,Happy,simple
+2143,2143,,11,Angrily disgusted,compound
+2144,2144,,1,Neutral,simple
+2145,2145,,11,Angrily disgusted,compound
+2146,2146,,2,Happy,simple
+2147,2147,,2,Happy,simple
+2148,2148,,11,Angrily disgusted,compound
+2149,2149,,5,Surprised,simple
+2150,2150,,2,Happy,simple
+2151,2151,,11,Angrily disgusted,compound
+2152,2152,,2,Happy,simple
+2153,2153,,2,Happy,simple
+2154,2154,,1,Neutral,simple
+2155,2155,,11,Angrily disgusted,compound
+2156,2156,,11,Angrily disgusted,compound
+2157,2157,,1,Neutral,simple
+2158,2158,,2,Happy,simple
+2159,2159,,2,Happy,simple
+2160,2160,,11,Angrily disgusted,compound
+2161,2161,,2,Happy,simple
+2162,2162,,2,Happy,simple
+2163,2163,,2,Happy,simple
+2164,2164,,2,Happy,simple
+2165,2165,,11,Angrily disgusted,compound
+2166,2166,,2,Happy,simple
+2167,2167,,2,Happy,simple
+2168,2168,,5,Surprised,simple
+2169,2169,,2,Happy,simple
+2170,2170,,2,Happy,simple
+2171,2171,,2,Happy,simple
+2172,2172,,1,Neutral,simple
+2173,2173,,5,Surprised,simple
+2174,2174,,1,Neutral,simple
+2175,2175,,5,Surprised,simple
+2176,2176,,1,Neutral,simple
+2177,2177,,2,Happy,simple
+2178,2178,,2,Happy,simple
+2179,2179,,2,Happy,simple
+2180,2180,,1,Neutral,simple
+2181,2181,,2,Happy,simple
+2182,2182,,1,Neutral,simple
+2183,2183,,2,Happy,simple
+2184,2184,,1,Neutral,simple
+2185,2185,,1,Neutral,simple
+2186,2186,,1,Neutral,simple
+2187,2187,,11,Angrily disgusted,compound
+2188,2188,,2,Happy,simple
+2189,2189,,1,Neutral,simple
+2190,2190,,2,Happy,simple
+2191,2191,,2,Happy,simple
+2192,2192,,5,Surprised,simple
+2193,2193,,2,Happy,simple
+2194,2194,,11,Angrily disgusted,compound
+2195,2195,,5,Surprised,simple
+2196,2196,,2,Happy,simple
+2197,2197,,2,Happy,simple
+2198,2198,,2,Happy,simple
+2199,2199,,2,Happy,simple
+2200,2200,,11,Angrily disgusted,compound
+2201,2201,,2,Happy,simple
+2202,2202,,1,Neutral,simple
+2203,2203,,2,Happy,simple
+2204,2204,,2,Happy,simple
+2205,2205,,2,Happy,simple
+2206,2206,,2,Happy,simple
+2207,2207,,1,Neutral,simple
+2208,2208,,11,Angrily disgusted,compound
+2209,2209,,5,Surprised,simple
+2210,2210,,2,Happy,simple
+2211,2211,,2,Happy,simple
+2212,2212,,1,Neutral,simple
+2213,2213,,1,Neutral,simple
+2214,2214,,2,Happy,simple
+2215,2215,,11,Angrily disgusted,compound
+2216,2216,,11,Angrily disgusted,compound
+2217,2217,,11,Angrily disgusted,compound
+2218,2218,,11,Angrily disgusted,compound
+2219,2219,,5,Surprised,simple
+2220,2220,,1,Neutral,simple
+2221,2221,,11,Angrily disgusted,compound
+2222,2222,,11,Angrily disgusted,compound
+2223,2223,,2,Happy,simple
+2224,2224,,1,Neutral,simple
+2225,2225,,11,Angrily disgusted,compound
+2226,2226,,11,Angrily disgusted,compound
+2227,2227,,1,Neutral,simple
+2228,2228,,2,Happy,simple
+2229,2229,,2,Happy,simple
+2230,2230,,2,Happy,simple
+2231,2231,,2,Happy,simple
+2232,2232,,1,Neutral,simple
+2233,2233,,11,Angrily disgusted,compound
+2234,2234,,11,Angrily disgusted,compound
+2235,2235,,2,Happy,simple
+2236,2236,,1,Neutral,simple
+2237,2237,,5,Surprised,simple
+2238,2238,,2,Happy,simple
+2239,2239,,2,Happy,simple
+2240,2240,,2,Happy,simple
+2241,2241,,11,Angrily disgusted,compound
+2242,2242,,11,Angrily disgusted,compound
+2243,2243,,2,Happy,simple
+2244,2244,,1,Neutral,simple
+2245,2245,,11,Angrily disgusted,compound
+2246,2246,,2,Happy,simple
+2247,2247,,2,Happy,simple
+2248,2248,,2,Happy,simple
+2249,2249,,14,Angrily surprised,compound
+2250,2250,,2,Happy,simple
+2251,2251,,2,Happy,simple
+2252,2252,,1,Neutral,simple
+2253,2253,,2,Happy,simple
+2254,2254,,2,Happy,simple
+2255,2255,,1,Neutral,simple
+2256,2256,,1,Neutral,simple
+2257,2257,,5,Surprised,simple
+2258,2258,,1,Neutral,simple
+2259,2259,,1,Neutral,simple
+2260,2260,,2,Happy,simple
+2261,2261,,11,Angrily disgusted,compound
+2262,2262,,11,Angrily disgusted,compound
+2263,2263,,2,Happy,simple
+2264,2264,,11,Angrily disgusted,compound
+2265,2265,,5,Surprised,simple
+2266,2266,,5,Surprised,simple
+2267,2267,,2,Happy,simple
+2268,2268,,2,Happy,simple
+2269,2269,,2,Happy,simple
+2270,2270,,11,Angrily disgusted,compound
+2271,2271,,2,Happy,simple
+2272,2272,,2,Happy,simple
+2273,2273,,2,Happy,simple
+2274,2274,,2,Happy,simple
+2275,2275,,2,Happy,simple
+2276,2276,,11,Angrily disgusted,compound
+2277,2277,,11,Angrily disgusted,compound
+2278,2278,,2,Happy,simple
+2279,2279,,5,Surprised,simple
+2280,2280,,2,Happy,simple
+2281,2281,,2,Happy,simple
+2282,2282,,1,Neutral,simple
+2283,2283,,11,Angrily disgusted,compound
+2284,2284,,11,Angrily disgusted,compound
+2285,2285,,11,Angrily disgusted,compound
+2286,2286,,1,Neutral,simple
+2287,2287,,2,Happy,simple
+2288,2288,,11,Angrily disgusted,compound
+2289,2289,,1,Neutral,simple
+2290,2290,,2,Happy,simple
+2291,2291,,2,Happy,simple
+2292,2292,,11,Angrily disgusted,compound
+2293,2293,,2,Happy,simple
+2294,2294,,11,Angrily disgusted,compound
+2295,2295,,1,Neutral,simple
+2296,2296,,11,Angrily disgusted,compound
+2297,2297,,5,Surprised,simple
+2298,2298,,11,Angrily disgusted,compound
+2299,2299,,2,Happy,simple
+2300,2300,,11,Angrily disgusted,compound
+2301,2301,,2,Happy,simple
+2302,2302,,2,Happy,simple
+2303,2303,,11,Angrily disgusted,compound
+2304,2304,,2,Happy,simple
+2305,2305,,5,Surprised,simple
+2306,2306,,2,Happy,simple
+2307,2307,,11,Angrily disgusted,compound
+2308,2308,,2,Happy,simple
+2309,2309,,2,Happy,simple
+2310,2310,,5,Surprised,simple
+2311,2311,,2,Happy,simple
+2312,2312,,1,Neutral,simple
+2313,2313,,2,Happy,simple
+2314,2314,,11,Angrily disgusted,compound
+2315,2315,,2,Happy,simple
+2316,2316,,11,Angrily disgusted,compound
+2317,2317,,2,Happy,simple
+2318,2318,,11,Angrily disgusted,compound
+2319,2319,,11,Angrily disgusted,compound
+2320,2320,,11,Angrily disgusted,compound
+2321,2321,,2,Happy,simple
+2322,2322,,2,Happy,simple
+2323,2323,,11,Angrily disgusted,compound
+2324,2324,,2,Happy,simple
+2325,2325,,11,Angrily disgusted,compound
+2326,2326,,2,Happy,simple
+2327,2327,,5,Surprised,simple
+2328,2328,,2,Happy,simple
+2329,2329,,2,Happy,simple
+2330,2330,,2,Happy,simple
+2331,2331,,2,Happy,simple
+2332,2332,,2,Happy,simple
+2333,2333,,2,Happy,simple
+2334,2334,,5,Surprised,simple
+2335,2335,,2,Happy,simple
+2336,2336,,2,Happy,simple
+2337,2337,,11,Angrily disgusted,compound
+2338,2338,,2,Happy,simple
+2339,2339,,1,Neutral,simple
+2340,2340,,11,Angrily disgusted,compound
+2341,2341,,1,Neutral,simple
+2342,2342,,1,Neutral,simple
+2343,2343,,1,Neutral,simple
+2344,2344,,11,Angrily disgusted,compound
+2345,2345,,5,Surprised,simple
+2346,2346,,2,Happy,simple
+2347,2347,,2,Happy,simple
+2348,2348,,2,Happy,simple
+2349,2349,,11,Angrily disgusted,compound
+2350,2350,,11,Angrily disgusted,compound
+2351,2351,,5,Surprised,simple
+2352,2352,,11,Angrily disgusted,compound
+2353,2353,,2,Happy,simple
+2354,2354,,2,Happy,simple
+2355,2355,,11,Angrily disgusted,compound
+2356,2356,,1,Neutral,simple
+2357,2357,,11,Angrily disgusted,compound
+2358,2358,,1,Neutral,simple
+2359,2359,,2,Happy,simple
+2360,2360,,5,Surprised,simple
+2361,2361,,2,Happy,simple
+2362,2362,,11,Angrily disgusted,compound
+2363,2363,,11,Angrily disgusted,compound
+2364,2364,,11,Angrily disgusted,compound
+2365,2365,,1,Neutral,simple
+2366,2366,,7,Fearful,simple
+2367,2367,,1,Neutral,simple
+2368,2368,,2,Happy,simple
+2369,2369,,11,Angrily disgusted,compound
+2370,2370,,2,Happy,simple
+2371,2371,,5,Surprised,simple
+2372,2372,,1,Neutral,simple
+2373,2373,,2,Happy,simple
+2374,2374,,2,Happy,simple
+2375,2375,,2,Happy,simple
+2376,2376,,11,Angrily disgusted,compound
+2377,2377,,2,Happy,simple
+2378,2378,,1,Neutral,simple
+2379,2379,,11,Angrily disgusted,compound
+2380,2380,,2,Happy,simple
+2381,2381,,2,Happy,simple
+2382,2382,,2,Happy,simple
+2383,2383,,1,Neutral,simple
+2384,2384,,2,Happy,simple
+2385,2385,,2,Happy,simple
+2386,2386,,2,Happy,simple
+2387,2387,,11,Angrily disgusted,compound
+2388,2388,,1,Neutral,simple
+2389,2389,,2,Happy,simple
+2390,2390,,1,Neutral,simple
+2391,2391,,2,Happy,simple
+2392,2392,,11,Angrily disgusted,compound
+2393,2393,,11,Angrily disgusted,compound
+2394,2394,,11,Angrily disgusted,compound
+2395,2395,,5,Surprised,simple
+2396,2396,,5,Surprised,simple
+2397,2397,,2,Happy,simple
+2398,2398,,5,Surprised,simple
+2399,2399,,2,Happy,simple
+2400,2400,,2,Happy,simple
+2401,2401,,2,Happy,simple
+2402,2402,,11,Angrily disgusted,compound
+2403,2403,,2,Happy,simple
+2404,2404,,11,Angrily disgusted,compound
+2405,2405,,2,Happy,simple
+2406,2406,,2,Happy,simple
+2407,2407,,2,Happy,simple
+2408,2408,,11,Angrily disgusted,compound
+2409,2409,,2,Happy,simple
+2410,2410,,11,Angrily disgusted,compound
+2411,2411,,11,Angrily disgusted,compound
+2412,2412,,2,Happy,simple
+2413,2413,,1,Neutral,simple
+2414,2414,,11,Angrily disgusted,compound
+2415,2415,,11,Angrily disgusted,compound
+2416,2416,,2,Happy,simple
+2417,2417,,2,Happy,simple
+2418,2418,,11,Angrily disgusted,compound
+2419,2419,,2,Happy,simple
+2420,2420,,11,Angrily disgusted,compound
+2421,2421,,2,Happy,simple
+2422,2422,,2,Happy,simple
+2423,2423,,2,Happy,simple
+2424,2424,,2,Happy,simple
+2425,2425,,5,Surprised,simple
+2426,2426,,2,Happy,simple
+2427,2427,,2,Happy,simple
+2428,2428,,11,Angrily disgusted,compound
+2429,2429,,11,Angrily disgusted,compound
+2430,2430,,2,Happy,simple
+2431,2431,,1,Neutral,simple
+2432,2432,,5,Surprised,simple
+2433,2433,,11,Angrily disgusted,compound
+2434,2434,,11,Angrily disgusted,compound
+2435,2435,,2,Happy,simple
+2436,2436,,2,Happy,simple
+2437,2437,,11,Angrily disgusted,compound
+2438,2438,,11,Angrily disgusted,compound
+2439,2439,,1,Neutral,simple
+2440,2440,,2,Happy,simple
+2441,2441,,5,Surprised,simple
+2442,2442,,2,Happy,simple
+2443,2443,,1,Neutral,simple
+2444,2444,,5,Surprised,simple
+2445,2445,,2,Happy,simple
+2446,2446,,11,Angrily disgusted,compound
+2447,2447,,5,Surprised,simple
+2448,2448,,5,Surprised,simple
+2449,2449,,11,Angrily disgusted,compound
+2450,2450,,11,Angrily disgusted,compound
+2451,2451,,1,Neutral,simple
+2452,2452,,2,Happy,simple
+2453,2453,,11,Angrily disgusted,compound
+2454,2454,,11,Angrily disgusted,compound
+2455,2455,,2,Happy,simple
+2456,2456,,2,Happy,simple
+2457,2457,,2,Happy,simple
+2458,2458,,11,Angrily disgusted,compound
+2459,2459,,11,Angrily disgusted,compound
+2460,2460,,2,Happy,simple
+2461,2461,,11,Angrily disgusted,compound
+2462,2462,,2,Happy,simple
+2463,2463,,11,Angrily disgusted,compound
+2464,2464,,11,Angrily disgusted,compound
+2465,2465,,2,Happy,simple
+2466,2466,,5,Surprised,simple
+2467,2467,,11,Angrily disgusted,compound
+2468,2468,,2,Happy,simple
+2469,2469,,2,Happy,simple
+2470,2470,,11,Angrily disgusted,compound
+2471,2471,,5,Surprised,simple
+2472,2472,,2,Happy,simple
+2473,2473,,11,Angrily disgusted,compound
+2474,2474,,11,Angrily disgusted,compound
+2475,2475,,2,Happy,simple
+2476,2476,,2,Happy,simple
+2477,2477,,2,Happy,simple
+2478,2478,,11,Angrily disgusted,compound
+2479,2479,,1,Neutral,simple
+2480,2480,,2,Happy,simple
+2481,2481,,2,Happy,simple
+2482,2482,,1,Neutral,simple
+2483,2483,,11,Angrily disgusted,compound
+2484,2484,,2,Happy,simple
+2485,2485,,11,Angrily disgusted,compound
+2486,2486,,1,Neutral,simple
+2487,2487,,2,Happy,simple
+2488,2488,,2,Happy,simple
+2489,2489,,11,Angrily disgusted,compound
+2490,2490,,2,Happy,simple
+2491,2491,,11,Angrily disgusted,compound
+2492,2492,,5,Surprised,simple
+2493,2493,,2,Happy,simple
+2494,2494,,2,Happy,simple
+2495,2495,,11,Angrily disgusted,compound
+2496,2496,,2,Happy,simple
+2497,2497,,1,Neutral,simple
+2498,2498,,11,Angrily disgusted,compound
+2499,2499,,2,Happy,simple
