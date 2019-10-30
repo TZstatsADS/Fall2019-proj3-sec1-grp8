@@ -33,14 +33,17 @@ feature <- function(input_list = fiducial_pt_list, index){
   
   ### Step 4: construct a dataframe containing features and label with nrow = length of index
   ### column bind feature matrix in Step 3 and corresponding features
-  pairwise_data <- cbind(pairwise_dist_feature, info$emotion_idx[index])
+  if ('emotion_idx' %in% colnames(info)) {
+    pairwise_data <- cbind(pairwise_dist_feature, info$emotion_idx[index])
+    colnames(pairwise_data) <- c(paste("feature", 1:(ncol(pairwise_data) - 1), sep = ""), "emotion_idx")
+    pairwise_data$emotion_idx <- as.factor(pairwise_data$emotion_idx)
+  } else {
+    pairwise_data <- pairwise_dist_feature
+    colnames(pairwise_data) <- c(paste("feature", 1:ncol(pairwise_data), sep = ""))
+  }
   
-  ### add column names
-  colnames(pairwise_data) <- c(paste("feature", 1:(ncol(pairwise_data) - 1), sep = ""), "emotion_idx")
   ### convert matrix to data frame
   pairwise_data <- as.data.frame(pairwise_data)
-  ### convert label column to factor
-  pairwise_data$emotion_idx <- as.factor(pairwise_data$emotion_idx)
   
   return(feature_df = pairwise_data)
 }
