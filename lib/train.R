@@ -1,29 +1,27 @@
 ###########################################################
 ### Train a classification model with training features ###
 ###########################################################
-train <- function(feature_df = pairwise_data, par = NULL){
-  ### Train an SVM model using processed features from training images
+train <- function(feature_df = pairwise_data, alpha = 1, n_folds = 5, cv_measure = 'class') {
+  library(glmnet)
+  ### Train a multinomial lasso model using processed features from training images
+  ### With K fold cross validation selecting penalty term that minimizes classification error 
   
   ### Input:
   ### - a data frame containing features and labels
   ### - a parameter list
   ### Output: trained model
   
-  ### load libraries
-  library("e1071")
-  
-  ### Train with SVM
-  if(is.null(par)){
-    gamma = 10^(-1)
-    cost = 1
-  } else {
-    gamma = par$gamma
-    cost = par$cost
-  }
-  
-   svm_model <- svm(categoryID~., data = feature_df,
-                    kernel = "radial", gamma = gamma, cost = cost) 
+  X_train <- model.matrix(emotion_idx~., data = feature_df)
+  Y_train <- feature_df$emotion_idx
 
-  return(model = svm_model)
+  cv_out <- cv.glmnet(x = X_train,
+                      y = Y_train,
+                      alpha = alpha,
+                      type.measure = cv_measure,
+                      nfolds = n_folds,
+                      family = 'multinomial')
+  
+  
+  return(cv_out)
 }
 
