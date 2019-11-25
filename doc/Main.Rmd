@@ -2,6 +2,7 @@
 title: "Main"
 author: "Samir Hadzic"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -15,16 +16,14 @@ if (!requireNamespace("BiocManager", quietly = TRUE)) {
 }
 
 packages <- c('R.matlab', 'readxl', 'dplyr', 'ggplot2', 'caret', 'glmnet', 'pROC')
-lapply(X = packages, FUN = function(package) if (!require(package)) {install.packages(package, dependencies = TRUE)})
-invisible(lapply(X = packages, FUN = library, character.only = TRUE))
-
+# lapply(X = packages, FUN = function(package) if (!require(package)) {install.packages(package, dependencies = TRUE)})
+lapply(X = packages, FUN = library, character.only = TRUE)
 ```
 
 ### Step 0 set work directories
 ```{r wkdir, eval=FALSE}
 set.seed(0)
 # setwd("~/Project3-FacialEmotionRecognition/doc")
-
 ```
 
 Provide directories for training images. Training images and Training fiducial points will be in different subfolders. 
@@ -50,11 +49,22 @@ Using cross-validation or independent test set evaluation, we compare the perfor
 
 ```{r exp_setup}
 run.cv = TRUE # run cross-validation on the training set for optimal penalty term hyperparameter 
+
 K <- 5  # number of CV folds
+
 alpha <- 1 # alpha 1 equals lasso, 0 equals ridge
+
 run.feature.train = TRUE # process features for training set
+
 run.feature.test = TRUE # process features for test set
+
 run.test = TRUE # run evaluation on an independent test set
+
+run.full.test = FALSE # run testing on totally new, full 2500 obs dataset without splitting into training and testing
+
+# accuracy results only produced if we have emotion_idx in the data. if yes, set labels_present to true
+labels.present = TRUE
+
 ```
 
 ### Step 2: import data and train-validation-test split 
@@ -62,13 +72,17 @@ run.test = TRUE # run evaluation on an independent test set
 # train-validation-test split
 info <- read.csv(train_label_path)
 
-# 80% train, 20% test
-train_split <- sample(x = info$Index, size = floor(nrow(info) * 0.8), replace = F)
-train_idx <- info$Index[train_split]
-test_idx <- info$Index[-train_split]
-
-if (any(duplicated(c(train_idx, test_idx)))) {
-  print('Train-Validation-Test Error, Non-Unique IDs Present')
+if (run.full.test) {
+  test_idx = info$Index
+} else {
+  # 80% train, 20% test
+  train_split <- sample(x = info$Index, size = floor(nrow(info) * 0.8), replace = F)
+  train_idx <- info$Index[train_split]
+  test_idx <- info$Index[-train_split]
+  
+  if (any(duplicated(c(train_idx, test_idx)))) {
+    print('Train-Validation-Test Error, Non-Unique IDs Present')
+  }
 }
 
 ```
@@ -105,15 +119,15 @@ source("../lib/feature.R")
 tm_feature_train <- NA
 if (run.feature.train) {
   tm_feature_train <- system.time(dat_train <- feature(fiducial_pt_list, train_idx))
+  save(dat_train, file = "../output/feature_train.RData")
 }
 
 tm_feature_test <- NA
 if (run.feature.test) {
   tm_feature_test <- system.time(dat_test <- feature(fiducial_pt_list, test_idx))
+  save(dat_test, file = "../output/feature_test.RData")
 }
 
-save(dat_train, file = "../output/feature_train.RData")
-save(dat_test, file = "../output/feature_test.RData")
 
 ```
 
@@ -133,7 +147,7 @@ Call the train model and test model from library.
 + In this Starter Code, we use KNN to do classification. 
 
 ```{r loadlib}
-source("../lib/train.R") 
+source("../lib/train.R")
 source("../lib/test.R")
 ```
 
@@ -141,10 +155,10 @@ source("../lib/test.R")
 * Model selection by choosing among different values of LASSO/Ridge penalty term, selecting value with lowest class. error.
 ```{r runcv, eval=F}
 
-if(run.cv) {
-  tm_train <- system.time(cv_models <- train(feature_df = dat_train, alpha = alpha, n_folds = K, cv_measure = 'class'))
-  save(cv_models, file="../output/cv_models.RData")
-}
+# if(run.cv) {
+#   tm_train <- system.time(cv_models <- train(feature_df = dat_train, alpha = alpha, n_folds = K, cv_measure = 'class'))
+#   save(cv_models, file="../output/cv_models.RData")
+# }
 
 load("../output/cv_models.Rdata")
 
@@ -160,9 +174,9 @@ plot(cv_models)
 
 ### Step 5: Run test on test images
 ```{r test}
+
 tm_test = NA
 if (run.test) {
-  load("../output/cv_models.Rdata")
   tm_test <- system.time(pred <- test(cv_models, dat_test))
 }
 
@@ -170,34 +184,48 @@ if (run.test) {
 
 * evaluation
 ```{r}
-# to observe specific parameter and coefficient values
-# cv_models$lambda.min
-# coef(cv_models, s = cv_models$lambda.min)
-model <- ifelse(alpha == 1, 'LASSO', 'Ridge')
-accu <- mean(dat_test$emotion_idx == pred)
-cat("The accuracy of the", model, "model is:", accu*100, "%.\n")
-confusionMatrix(data = pred, reference = dat_test$emotion_idx)
+### EVALUATION ###
+
+if (labels.present) {
+  model <- ifelse(alpha == 1, 'LASSO', 'Ridge')
+  accu <- mean(dat_test$emotion_idx == pred)
+  cat("The accuracy of the", model, "model is:", accu*100, "%.\n")
+  length(levels(pred))
+  dat_test$emotion_idx <- as.factor(dat_test$emotion_idx)
+  length(dat_test$emotion_idx)
+  length(pred)
+  confusionMatrix(data = pred, reference = dat_test$emotion_idx)
+  # to observe specific parameter and coefficient values
+  # cv_models$lambda.min  
+  # coef(cv_models, s = cv_models$lambda.min)
+}
+
 
 ```
 
 ### Summarize Running Time
 Prediction performance matters, so does the running times for constructing features and for training the model, especially when the computation resource is limited. 
 ```{r running_time}
-cat("Time for constructing training features=", tm_feature_train[1], "s \n")
-cat("Time for constructing testing features=", tm_feature_test[1], "s \n")
-cat("Time for training model=", tm_train[1], "s \n")
-cat("Time for testing model=", tm_test[1], "s \n")
+if (labels.present) {
+  cat("Time for constructing training features=", tm_feature_train[1], "s \n")
+  cat("Time for constructing testing features=", tm_feature_test[1], "s \n")
+  cat("Time for training model=", tm_train[1], "s \n")
+  cat("Time for testing model=", tm_test[1], "s \n")
+  write.csv(dat_test, 'features.csv')
+}
+
 ```
 
-Writing labels.csv
+Writing labels.csv -- only contains image index and predicted emotion
 ```{r}
-
-to_match <- info[, c('emotion_idx', 'emotion_cat', 'type')]
-to_match <- to_match[!duplicated(to_match),]
-to_match$emotion_idx <- as.factor(to_match$emotion_idx)
-labels <- data.frame(index = 1:nrow(dat_test), identity = rep(NA, nrow(dat_test)), emotion_idx = pred)
-labels <- left_join(labels, to_match, by = "emotion_idx")
-write.csv(labels, 'labels_pred.csv')
+if (run.full.test) {
+  labels <- data.frame(index = 1:nrow(dat_test), identity = rep(NA, nrow(dat_test)), emotion_idx = pred)
+  write.csv(labels, 'model_labels.csv')
+} 
+ # to_match <- info[, c('emotion_idx', 'emotion_cat', 'type')]
+# to_match <- to_match[!duplicated(to_match),]
+# to_match$emotion_idx <- as.factor(to_match$emotion_idx)
+# labels <- left_join(labels, to_match, by = "emotion_idx")
 
 ```
 ###Reference
