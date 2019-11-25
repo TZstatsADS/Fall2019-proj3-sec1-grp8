@@ -2,7 +2,7 @@
 ### Construct features and responses for training images  ###
 #############################################################
 
-feature <- function(input_list = fiducial_pt_list, index){
+feature <- function(input_list = fiducial_pt_list, index, train = TRUE){
   
   ### Construct process features for training images 
   
@@ -27,23 +27,22 @@ feature <- function(input_list = fiducial_pt_list, index){
     }
     return(euclidean_distances) 
   }
-
+  
   ### Step 3: Apply function in Step 2 to selected index of input list, output: a feature matrix with ncol = n(n-1) = 78*77 = 6006
   pairwise_dist_feature <- t(sapply(input_list[index], pairwise_dist_result))
   
   ### Step 4: construct a dataframe containing features and label with nrow = length of index
   ### column bind feature matrix in Step 3 and corresponding features
+  
   if ('emotion_idx' %in% colnames(info)) {
     pairwise_data <- cbind(pairwise_dist_feature, info$emotion_idx[index])
-    colnames(pairwise_data) <- c(paste("feature", 1:(ncol(pairwise_data) - 1), sep = ""), "emotion_idx")
+    pairwise_data <- as.data.frame(pairwise_data)
+    colnames(pairwise_data) <- c(paste("feature", 1:(ncol(pairwise_data) - 1), sep = ""), 'emotion_idx')
     pairwise_data$emotion_idx <- as.factor(pairwise_data$emotion_idx)
   } else {
-    pairwise_data <- pairwise_dist_feature
+    pairwise_data <- as.dataframe(pairwise_dist_feature)
     colnames(pairwise_data) <- c(paste("feature", 1:ncol(pairwise_data), sep = ""))
   }
-  
-  ### convert matrix to data frame
-  pairwise_data <- as.data.frame(pairwise_data)
-  
+
   return(feature_df = pairwise_data)
 }
