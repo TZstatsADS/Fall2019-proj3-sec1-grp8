@@ -21,13 +21,13 @@ Term: Fall 2019
 + The accuracy rate for binary classifier and multiclass classifier in baseline GBM model are 0.65 and 0.37 respectively.For the improved SVM model the accuracy rate are 0.98 and 0.56 respectively, and the neural network model are 0.98 and 0.63 respectively, which are better than the baseline models.
 
 ### Contribution Statement
-*Jerry Zhang* is responsible for the calculation of pairwise euclidean distance, implementation of neural network model, cross validation, and final evaluation.
+*Jerry Zhang* is responsible for the calculation of pairwise euclidean distance, implementation of neural network model, cross validation, and final evaluation. Also did all the data preprocessing and implementation for NMF, architectural planning, testing, and organization of training structure. Wrote half of presentation as well. 
 
-*Chongyu He* is responsble for baseline GBM model, SVM, and hyperparameter tuning of NN model.
+*Chongyu He* is responsble for baseline GBM model, attempted SVM, and helped convert files from .py to juypter.
 
-*Samir Hadzic* is responsble for ridge and lasso model shrinkage.
+*Samir Hadzic* is responsble for ridge and lasso model shrinkage. 
 
-*Jason Gao* is responsible for PCA and NMF dimensionality reduction, organizing Readme file and final presentation.
+*Jason Gao* is partially responsible for PCA and NMF dimensionality reduction, organizing Readme file and half final presentation.
 
 Following [suggestions](http://nicercode.github.io/blog/2013-04-05-projects/) by [RICH FITZJOHN](http://nicercode.github.io/about/#Team) (@richfitz). This folder is orgarnized as follows.
 
