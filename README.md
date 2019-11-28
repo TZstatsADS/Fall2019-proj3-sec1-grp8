@@ -25,7 +25,7 @@ Term: Fall 2019
 
 *Chongyu He* is responsble for baseline GBM model, attempted SVM, and helped convert files from .py to juypter.
 
-*Samir Hadzic* is responsble for ridge and lasso model shrinkage. 
+*Samir Hadzic* is responsible for data preprocessing, calculation of pairwise euclidean distances (in r). Designed, evaluated LASSO/Ridge logistic regression models with cross validation and produced corresponding slides in presentation. Assited Jerry with feature selection for NN. Produced group's predictions on day of presentation.   
 
 *Jason Gao* is partially responsible for PCA and NMF dimensionality reduction, organizing Readme file and half final presentation.
 
